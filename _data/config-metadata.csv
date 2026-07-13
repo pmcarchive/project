@@ -1,0 +1,21 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Owner of Mark,,,DCTERMS.title,headline
+biographical_notes,About
+active_years,Active Years
+display_location,Location,,,DCTERMS.coverage,contentLocation
+associated_techniques,Associated Techniques,true
+intaglio_specific,Intaglio Techniques,true
+lithography_specific,Lithography Techniques,true
+relief_specific,Relief Techniques,true
+screenprint_specific,Screenprint Techniques,true
+other_techniques,Other Techniques,true
+artists,Associated Artists,true,,DCTERMS.subject,keywords
+printers,Associated Printers,true,
+publishers,Associated Publishers and Workshops,true,
+institutions,Major Institutional Collections,true
+size,Size of Mark
+website,Website,,true
+subject,Mark Descriptor,true,,,,keywords
+source,Source,,,,
+credit,Credit Line
+

@@ -1,0 +1,25 @@
+---
+# Default home page with boxes providing collection stats
+layout: page
+---
+<div class="row">
+
+  <div class="col-md-6">
+
+    {% include index/description.html title="About the Project" %}
+    {% include index/supporters.html %}
+    {% include index/grant.html %}
+    
+  </div>
+  <div class="col-md-6">  
+
+    {% include index/carousel.html %}
+    {% include index/featured-terms.html field="subject" title="Browse by Mark Descriptor" btn-color="outline-dark" %} 
+    {% include index/featured-terms.html field="associated_techniques" title="Browse by Technique" btn-color="outline-dark" %}
+
+  </div>
+  <div class="col-md-12">
+
+  </div>
+
+</div>

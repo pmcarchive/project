@@ -1,0 +1,1861 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Browse | PRINTER&#39;S MARKS AND CHOPS ARCHIVE</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!--
+
+  _____     ____        __  _           ___       _ __   __       
+ / ___/__  / / /__ ____/ /_(_)__  ___  / _ )__ __(_) /__/ /__ ____
+/ /__/ _ \/ / / -_) __/ __/ / _ \/ _ \/ _  / // / / / _  / -_) __/
+\___/\___/_/_/\__/\__/\__/_/\___/_//_/____/\_,_/_/_/\_,_/\__/_/   
+                                                                
+    built with CollectionBuilder-CSV
+    https://github.com/CollectionBuilder/collectionbuilder-csv
+-->
+<meta name="generator" content="collectionbuilder-csv" />
+
+<!-- load style sheets -->
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900" rel="stylesheet"><link rel="stylesheet" href="/assets/lib/bootstrap.min.css" type="text/css">
+<!-- load custom css last to allow overrides -->
+<link rel="stylesheet" href="/assets/css/cb.css?v=2026-07-13" type="text/css">
+
+
+<!-- Last build date: 2026-07-13 -->
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1 class="mt-2"><a class="text-dark" href="/" >PRINTER'S MARKS AND CHOPS ARCHIVE</a></h1>	 
+            
+        </div>
+        
+        <div class="col-md-3 d-none d-lg-block text-end">
+            <a class="btn btn-outline-light" href="">
+                <img class="img-fluid" src="/assets/img/PMC_logo_blk.jpg" title="PMC Archive" alt="PMC Archive home" >
+            </a>
+        </div>
+        
+    </div>
+</div>
+    <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav me-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/browse.html">Search</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu">
+                        
+                        <a class="dropdown-item " href="/about.html">The Project</a>
+                        
+                        <a class="dropdown-item " href="/supporters.html">Our Supporters</a>
+                        
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Submit</a>
+                    <div class="dropdown-menu">
+                        
+                        <a class="dropdown-item " href="https://docs.google.com/forms/d/e/1FAIpQLSeccP2PXzRnKsLAYUTV500lxR9CDqqlg-zdg1H2OXCa1-ZurA/viewform">Submit a Mark</a>
+                        
+                        <a class="dropdown-item " href="https://docs.google.com/forms/d/e/1FAIpQLSeXzdwG39J0GuHKGhTw3WjiIOSib1QttYzCP1ZJm5PDSTztzw/viewform">Submit an Unknown Mark</a>
+                        
+                    </div>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/unknown.html">Unknown Marks</a>
+                </li></ul>
+            
+            <form role="search" id="nav-search" action="/search/index.html"> 
+    <input id="nav-search-box" class="form-control" type="search" placeholder="Search" aria-label="Search collection items" name="q">
+</form>
+            
+        </div>
+    </div>
+</nav>
+
+    <main id="maincontent" role="main" class="flex-shrink-0">
+      <div class="container my-4">
+  <div class="row mb-2">
+    <div class="col-7 col-lg-9"><h2 id="browse-and-search-marks">Browse and Search Marks</h2>
+</div>
+    <div class="col-5 col-lg-3 text-end text-lg-start"><button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#advancedSearchModal">
+  Advanced<span class="d-none d-md-inline"> Search</span>
+</button>
+<div class="modal fade" id="advancedSearchModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title h4" id="advancedSearchModalLabel">Advanced Search</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="advancedSearchForm">
+          <div id="searchRows">
+            <!-- Initial search rows will be inserted here -->
+          </div>
+          <div class="mt-3">
+            <button type="button" class="btn btn-outline-secondary btn-sm" onclick="addSearchRow()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+              </svg>
+              Add Another Field
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="submitAdvancedSearch()">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Template for search row -->
+<template id="searchRowTemplate">
+    <div class="search-row mb-4">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-2">
+                <select class="form-select form-select-sm boolean-operator" aria-label="Boolean option">
+                    <option value="AND">AND</option>
+                    <option value="OR">OR</option>
+                    <option value="NOT">NOT</option>
+                </select>
+            </div>
+            <div class="col-5 col-md-3">
+                <select class="form-select form-select-sm field-select" aria-label="Metadata Field">
+                    <option value="all">All Fields</option>
+                    <option value="title">Title</option>
+                    
+                    <option value="subject">Descriptor</option>
+                    
+                    <option value="associated_techniques">Techniques</option>
+                    
+                    <option value="artists">Associated Artists</option>
+                    
+                    <option value="printers">Associated Printers</option>
+                    
+                    <option value="publishers">Associated Workshops and Publishers</option>
+                    
+                    <option value="institutions">Major Institutional Collections</option>
+                    
+                    <option value="intaglio_specific">Intaglio Techniques</option>
+                    
+                    <option value="relief_specific">Relief Techniques</option>
+                    
+                    <option value="lithography_specific">Lithography Techniques</option>
+                    
+                    <option value="screenprint_specific">Screenprint Techniques</option>
+                    
+                    <option value="other_techniques">Other Techniques</option>
+                    
+                    <option value="visual_description">Visual Description</option>
+                    
+                    <option value="biographical_notes">Biographical Notes</option>
+                    
+                </select>
+            </div>
+            <div class="col-10 col-md-6">
+                <input type="text" class="form-control form-control-sm search-input" aria-label="Search term" placeholder="Enter search term">
+                <div class="date-range-inputs">
+                    <div class="date-input-group">
+                        <input type="text" class="form-control form-control-sm start-date" aria-label="Start Date" placeholder="Start Date">
+                        <span class="date-separator">to</span>
+                        <input type="text" class="form-control form-control-sm end-date" aria-label="End Date" placeholder="End Date">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 col-md-1">
+                <button type="button" class="btn btn-outline-danger btn-sm remove-row" aria-label="Remove condition"><span aria-hidden="true">&times;</span></button>
+            </div>
+        </div>
+    </div>
+</template>
+</div>
+</div>
+<div class="row mb-3 justify-content-center">
+    <div class="col-lg-8 text-center">
+        <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
+            <div class="input-group input-group-lg">
+                
+                <select class="form-control form-select d-none d-lg-block" id="fieldSelect" style="max-width: 200px;" aria-label="select search field to filter">
+                    <option value="all">All Fields</option>
+                    <option value="title">Title</option>
+                    
+                    
+                    <option value="subject">Descriptor</option>
+                    
+                    
+                    <option value="associated_techniques">Techniques</option>
+                    
+                    
+                    <option value="artists">Associated Artists</option>
+                    
+                    
+                    <option value="printers">Associated Printers</option>
+                    
+                    
+                    <option value="publishers">Associated Workshops and Publishers</option>
+                    
+                    
+                    <option value="institutions">Major Institutional Collections</option>
+                    
+                    
+                    <option value="intaglio_specific">Intaglio Techniques</option>
+                    
+                    
+                    <option value="relief_specific">Relief Techniques</option>
+                    
+                    
+                    <option value="lithography_specific">Lithography Techniques</option>
+                    
+                    
+                    <option value="screenprint_specific">Screenprint Techniques</option>
+                    
+                    
+                    <option value="other_techniques">Other Techniques</option>
+                    
+                    
+                    <option value="visual_description">Visual Description</option>
+                    
+                    
+                    <option value="biographical_notes">Biographical Notes</option>
+                    
+                    <option value="display_template">Content Type</option>
+                    
+                    <option value="" disabled><hr></option>
+                    <option value="advanced">Advanced Search...</option>
+                </select>
+                <!-- Mobile filter button - shows only on small screens -->
+                <div class="dropdown d-lg-none">
+                    <button class="py-3 btn btn-outline-secondary" type="button" id="mobileFilterButton" data-bs-toggle="dropdown" aria-expanded="false" title="Filter options">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
+                        </svg>
+                        <span id="selectedField" class="d-none d-sm-inline ms-1">All Fields</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <button class="dropdown-item" type="button" data-field="all">All Fields</button>
+                        <button class="dropdown-item" type="button" data-field="title">Title</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="subject">Descriptor</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="associated_techniques">Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="artists">Associated Artists</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="printers">Associated Printers</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="publishers">Associated Workshops and Publishers</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="institutions">Major Institutional Collections</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="intaglio_specific">Intaglio Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="relief_specific">Relief Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="lithography_specific">Lithography Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="screenprint_specific">Screenprint Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="other_techniques">Other Techniques</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="visual_description">Visual Description</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="biographical_notes">Biographical Notes</button>
+                        
+                        
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item" type="button" data-field="advanced">Advanced Search...</button>
+                        
+                    </div>
+                </div>
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Filter ... " aria-label="Search"> 
+                <!-- Update the date range inputs section -->
+                <div id="dateRangeInputs" class="date-range-inputs">
+                    <div class="date-input-group">
+                        <input type="text" id="startDate" class="ms-2 form-control" aria-label="Start Date" placeholder="Start Date">
+                        <span class="date-separator">to</span>
+                        <input type="text" id="endDate" class="me-2 form-control" aria-label="End Date" placeholder="End Date">
+                    </div>
+                </div>
+                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Search</button>
+                <button class="btn btn-outline-secondary filter d-none d-lg-flex" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+            </div>
+        </form>
+        <!-- Active filter indicators -->
+        <div id="activeFilters" class="mt-2 text-start"></div>
+        <div class="h2" id="numberOf" role="status" aria-atomic="true"></div>
+    </div>
+    <div class="col-lg-2">
+        <div class="dropdown">
+            <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by <span id="sortFilter">Random</span>
+            </button>
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                <button class="dropdown-item browse-sort-item " data-filter="random">Random</button>
+                <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
+                
+                
+                <button class="dropdown-item browse-sort-item" data-filter="subject">Mark Descriptor</button>
+                
+                <button class="dropdown-item browse-sort-item" data-filter="associated_techniques">Techniques</button>
+                
+            </div>
+            <button class="btn btn-outline-secondary filter p-1 d-lg-none float-end" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+        </div>
+       
+    </div>
+</div>
+
+<div id="loadingIcon" class="text-center">
+    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+</div>
+
+<div class="row" id="browseItems"></div>
+
+</div>
+    </main>
+    <footer class="bg-black pt-4 mt-auto container-fluid">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7 px-4 mt-3">
+
+            <h2 class="h4"><a href="/" class="text-white">PRINTER'S MARKS AND CHOPS ARCHIVE</a></h2>
+            <p class="text-white"><small>The Printer's Marks and Chops Archive is a catalog of the chop marks and blind stamps used by printers and publishers on fine art prints and other works on paper.</small></p>
+            <nav>
+                <ul id="footer-nav" class="nav nav-pills ">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light active" aria-current="page" href="/browse.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/about.html">About</a>
+                    
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="https://docs.google.com/forms/d/e/1FAIpQLSeccP2PXzRnKsLAYUTV500lxR9CDqqlg-zdg1H2OXCa1-ZurA/viewform">Submit</a>
+                    
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/unknown.html">Unknown Marks</a>
+                    </li></ul>
+            </nav>
+
+        </div>
+
+        <div class="col-md-5 mt-3 text-center">
+
+           
+            <p class="text-white text-md-end" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" title="CollectionBuilder">
+                        <img src="/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2026</p>
+    </div>
+
+</footer>
+    <!-- Bootstrap bundle JS -->
+<script src="/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="/assets/lib/lazysizes.min.js" async></script>
+
+
+<script>
+/**
+ * BROWSE PAGE JAVASCRIPT - Less Janky Version
+ * 
+ * Handles collection browsing with search, filtering, sorting, and URL state management.
+ * Supports both simple hash-based searches and advanced parameter-based searches.
+ */
+
+// =============================================================================
+// INITIALIZATION & DATA SETUP
+// =============================================================================
+
+/**
+ * Initialize items array from Jekyll site data
+ */
+var items = [
+    
+    { "subject":"Letter; Shape","associated_techniques":"Lithography","artists":"Robert Hansen; Anni Albers; Rufino Tomayo; Ynez Johnston; Walasse Ting; Nathan Oliveira; Lee Mullican; William Nelson Copley; Miriam Schapiro","printers":"Kaye Dyal; Clifford Smith","publishers":"Tamarind Institute; Plantin Press","institutions":"National Gallery of Art; Norton Simon Museum; University of Iowa; Detroit Institute of Arts","visual_description":"circle; E; R","biographical_notes":"Tamarind Institute printer fellow April 1964–April 1965","img": "/objects/10041.png","display_template": "image","title":"Ernest Rosenthal",
+        "id":"10041" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Paul Brach; Anni Albers; Robert Hansen; Lee Mullican","printers":"Kenneth Tyler","publishers":"Tamarind Institute","institutions":"Norton Simon Museum; National Gallery of Art","visual_description":"triangle; ankh; cross","biographical_notes":"Tamarind Institute printer fellow April–September 1964","img": "/objects/10042.png","display_template": "image","title":"Jeff Ruocco",
+        "id":"10042" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Hung Liu; Beth Van Hoesen; Mark Adams; Edward Ruscha; Lowell Herrero; Sandow Birk; Gary Buknovik; Ray Beldner; Chris Finely; Mike Henderson; Fances McCormack; Mark Perlman","printers":"Terry Rein; Tom Goglio; Bud Shark; Stephen Britko; Kris Stoll; Talia Lipskind; Beth Van Hoesen","publishers":"Trillium Graphics; Tamarind Institute","institutions":"Portland Art Museum; Fine Arts Museums of San Francisco; Saint MaryÕs College of California","visual_description":"circle; curve; curvy; S","biographical_notes":"Tamarind Institute printer fellow August 1974–January 1976","img": "/objects/10043.png","display_template": "image","title":"David Salgado",
+        "id":"10043" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography","artists":"Carrie Mae Weems; Agnes Denes; Robert Gober; Barbara Kruger; Eric Fischl; Kara Walker; Willie Cole; Louise Bourgeois; Ed Colker; Michael Byron","printers":"James Miller; Joe Petruzzelli","publishers":"Sequra Arts Studio; Derriere L'Etoile Studios; Skira/Rizzoli; Tamarind Institute; The Arion Press; Alexander and Bonin; Baron/Boisanté Editions; Studio Heinrici; Harlan & Weaver","institutions":"National Gallery of Art; Smithsonian American Art Museum; Telfair Museums; Wellesley College; Museum of Modern Art","visual_description":"circle; M; S","biographical_notes":"Tamarind Institute printer fellow August 1966–September 1968","img": "/objects/10044.png","display_template": "image","title":"Maurice Sanchez",
+        "id":"10044" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Michelle Stuart; Chuck Close; Earl Stroh","printers":"Glen Brill; John Summers; Lynn Baker","publishers":"Pace Editions; Tamarind Institute","institutions":"Saint Louis Art Museum","visual_description":"circle; triangle; wave; curve; curvy","biographical_notes":"Tamarind Institute printer fellow August 1974–January 1976","img": "/objects/10045.png","display_template": "image","title":"Richard Shore",
+        "id":"10045" },
+    { "subject":"Shape","associated_techniques":"Lithography; Screenprint","artists":"Rafael Gomez Canogar; Ed Ruscha; Kenneth Price; Matsumi Kanemitsu; Eleanore Mikus; Seymour Rosofsky; Leon Polk Smith; H.C. Westermann; Hugh Townley; Burhan Doğançay; Jules Engel; Ed Moses; Clinton Adams; Mason Williams; Sam Francis; Jasper Johns; Robert Rauschenberg; William T. Wiley","printers":"Jean Milant; Manuel Fuentes; Donald Kelly; Kenjilo Nanao; Robert Rogers; John Sommers; Anthony Stoeveken; John Butke; Noemi Smilanksy; Zigmunds Priede; Donn Steward; Frank Akers","publishers":"Tamarind Institute; Ed Ruscha Studio; Universal Limited Art Editions","institutions":"Amon Carter Museum of American Art; National Gallery of Art; Fine Arts Museums of San Francisco; Norton Simon Museum; Princeton University Art Museum; Minneapolis Institute of Art; Art Institute Chicago; RISD Museum; Saint Louis Art Museum; Yale University Art Gallery; Metropolitan Museum of Art; Smithsonian American Art Museum","visual_description":"circle","biographical_notes":"Tamarind Institute printer fellow June 1968–August 1969, Tamarind Institute staff printer 1971","img": "/objects/10046.png","display_template": "image","title":"Daniel &quot;Dan&quot; Socha",
+        "id":"10046" },
+    { "subject":"Letter; Shape","associated_techniques":"Intaglio; Lithography","artists":"Raphael Soyer; James Rosenquist; Jack Levine; Joseph Stella; Louise Nevelson; Jackson Pollock; Leonard Baskin; Goya; Robert Motherwell; William Gropper; Robert Birmelin; Jim Dine; Jacques Lipchitz; Harold Altman; Rico Lebrun; Emerson Woelffer","publishers":"A. Lublin; Pyramid Arts, Ltd.; Hollander Graphic Workshop; Tamarind Institute","institutions":"National Gallery of Art; Art Institute Chicago; Smithsonian American Art Museum; Metropolitan Museum of Art; Library of Congress; Terra Foundation for American Art; Whitney Museum of Art; National Gallery of Australia; Brooklyn Museum; Museum of Fine Arts Boston; Hammer Museum","visual_description":"rectangle; E; S","biographical_notes":"Tamarind Institute printer fellow September–December 1960","img": "/objects/10047.png","display_template": "image","title":"Emiliano Sorini",
+        "id":"10047" },
+    { "subject":"Letter","associated_techniques":"Intaglio; Lithography","artists":"Jasper Johns; Lee Bontecou; Larry Rivers; Cy Twombly; Bernett Newman; Helen Frankenthaler; Janet Lee Kadesky Ruttenberg; Robert Rauschenberg; James Rosenquist; George Earl Ortman; Allen Jones; Ynez Johnston; Marisol Escobar","printers":"Zigmunds Priede; Timothy Huchthausen; Frank Akers","publishers":"Tamarind Institute; Universal Limited Art Editions","institutions":"Whitney Museum of Art; National Gallery of Art; Metropolitan Museum of Art; Spencer Museum of Art; Baltimore Museum of Art; Amon Carter Museum of American Art; Brooklyn Museum; Fine Arts Museum of San Francisco","visual_description":"D; H; S","biographical_notes":"Tamarind Institute printer fellow November 1965–July 1966","img": "/objects/10048.png","display_template": "image","title":"Donn Steward",
+        "id":"10048" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Robert Peterson; Ulfert Wilke","printers":"Bill Lagattuta","publishers":"Tamarind Institute","visual_description":"shell","biographical_notes":"Tamarind Institute printer fellow January 1972–April 1973","img": "/objects/10049.png","display_template": "image","title":"Mary Sundstrum",
+        "id":"10049" },
+    { "subject":"Shape","associated_techniques":"Lithography","publishers":"Tamarind Institute","visual_description":"square; squares; tilted; inside","biographical_notes":"Tamarind Institute printer fellow November 1973–June 1974","img": "/objects/10050.png","display_template": "image","title":"Peder Talbert",
+        "id":"10050" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography","artists":"Charles White; Gregory Masurovsky; Emerson Woelffer; William; Pettet; Clayton Pond; William Crutchfield; Matsumi Kanemitsu; Jan Stussy; Salvador Bru; Paul Harris","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art","visual_description":"lines; L; T; H","biographical_notes":"Tamarind Institute printer fellow June 1969–June 1970","img": "/objects/10051.png","display_template": "image","title":"Larry Thomas",
+        "id":"10051" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"Karl Schrag","publishers":"Tamarind Institute","institutions":"National Gallery of Art","visual_description":"lines; E; W","biographical_notes":"Tamarind Institute printer fellow June–August 1962","img": "/objects/10052.png","display_template": "image","title":"Emil Weddige",
+        "id":"10052" },
+    { "subject":"Word","associated_techniques":"Lithography","publishers":"Tamarind Institute","visual_description":"won't; W; O; N; T","biographical_notes":"Tamarind Institute printer fellow September 1970–September 1971","img": "/objects/10053.png","display_template": "image","title":"John Will",
+        "id":"10053" },
+    { "subject":"Image","associated_techniques":"Intaglio; Lithography","artists":"Jasper Johns; Michael Mazur; Eleanore Mikus; Ed Moses; John Altoon","publishers":"Graphicstudio; Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art","visual_description":"shell; nautilus; spiral","biographical_notes":"Tamarind Institute printer fellow September 1967–August 1968","img": "/objects/10054.png","display_template": "image","title":"Theo Wujcik",
+        "id":"10054" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"Sam Francis; John Paul Jones; Karl Schrag; Jerome Kaplan; Richard Diebenkorn; Rudy Pozzatti; Rufino Tomayo; John Philip Hultberg","publishers":"Pasadena Art Museum; Tamarind Institute; Original Press","institutions":"National Gallery of Art; Philadelphia Museum of Art; Houston Fine Art Press; Brooklyn Museum; Museum of Fine Arts Boston; Norton SImon Museum; Fine Arts Museum of San Francisco","visual_description":"J; Z","biographical_notes":"Tamarind Institute printer fellow January 1962–April 1963 and September–November 1964","img": "/objects/10055.png","display_template": "image","title":"Joseph &quot;Joe&quot; Zirker",
+        "id":"10055" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Jackson Lee Nesbitt; Quentin Crisp; William Walmsley","publishers":"Rolling Stone Press; Tamarind Institute","institutions":"Nelson Atkins Museum of Art","visual_description":"V; bridge; rectangle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer training participant August 1981–May 1982, senior printer fellow May 1982–1983","img": "/objects/10056.png","display_template": "image","title":"Wayne Kline",
+        "id":"10056" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Nathan Oliveira; Steven Sorman; Paul Pletka; Deborah Remington","publishers":"Tamarind Institute; Winstone Press","institutions":"National Gallery of Art; Blanton Museum of Art; Hammer Museum","visual_description":"pinecone","biographical_notes":"Former director of Winstone Press in North Carolina, Tamarind Institute master printer / studio manager 1980–1983, Tamarind Institute senior printer fellow May 1979–May 1980, printer training participant August 1978–May 1979","img": "/objects/10057.png","display_template": "image","title":"Catherine Kirsch Kuhn",
+        "id":"10057" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Arakawa; Juan Sánchez; Red Grooms; Tom Joyce; Enrique Martinez Celaya; Hollis Sigler; Osmeivy Ortega Pacheco; Kiki Smith; Ed Ruscha; Jonathan Lasker; Johnnie Winona Ross; Jim Dine; Chris Brown; Robert Colescott; Rudy Fernandez; Richard Levers; Miguel A. Gandert; Robert Peterson; Jaune Quick-To-See Smith; Nicola L˜pez; Gustavo Victor Guler; Hung Liu; Daniel Rizzie; May Stevens; Gendron Jensen; Larry Brown; Jonathan Seliger; Amy Cutler","printers":"Steven Andersen; Philip Barber; Tamarind Lithography Workshop; Ed Hamilton; Peter Haarz","publishers":"Vermillion Editions; Tamarind Institute; Peregrine Press; Sette/Segura Publishers","institutions":"Smithsonian American Art Museum; Turchin Center for the Visual Arts; National Gallery of Art; Museum of Texas Tech University; Albuquerque Museum; New Mexico Museum of Art; Baltimore Museum of Art","visual_description":"goat; mountains","biographical_notes":"Tamarind Institute master printer / studio manager 1988–2015, Tamarind Institute printer fellow August 1977–June 1979","img": "/objects/10058.jpg","display_template": "image","title":"Bill Lagattuta",
+        "id":"10058" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"Rafael Gomez Canogar; Ed Ruscha; Kenneth Price; Matsumi Kanemitsu; Eleanore Mikus; Seymour Rosofsky; Leon Polk Smith; H.C. Westermann; Hugh Townley; Burhan Doğançay; Jules Engel; Ed Moses; Clinton Adams; Mason Williams; Sam Francis; Jasper Johns; Robert Rauschenberg; William T. Wiley","publishers":"Petersburg Press; Cirrus Editions; Rafael Canogar; Tamarind Institute; The Tamstone Group","institutions":"Smithsonian American Art Museum; New Mexico Museum of Art; Amon Carter Museum of American Art; Los Angeles County Museum of Art; Hammer Museum; Fine Arts Museum of San Francisco","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow February 1969–June 1970","img": "/objects/10059.png","display_template": "image","title":"William Law III",
+        "id":"10059" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Jeffrey Sippel; Donald Belcher; Stefan Dean; Ana De la Porte; Ray Smith; Senkler Semin; Michael Nakoneczny; Charlie Carillo; Susan Coe","publishers":"Tamarind Institute","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow August 1994–May 1995, Tamarind Institute printer training participant August 1993–May 1994","img": "/objects/10060.png","display_template": "image","title":"Nebojša Lazić",
+        "id":"10060" },
+    { "associated_techniques":"Lithography","artists":"Deborah Remington; Clinton Adams; Steven Sorman","publishers":"Tamarind Institute","institutions":"University of New Mexico","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1980–May 1981, Tamarind Institute printer training participant August 1979–May 1980","img": "/objects/10061.png","display_template": "image","title":"Kathleen Leavitt",
+        "id":"10061" },
+    { "associated_techniques":"Lithography","artists":"Sharon Louden; Juan Sˆnchez; Hung Liu; Wes Mills; Yizhak Elyashiv","publishers":"Tamarind Institute","institutions":"University of New Mexico","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1998–May 1999, Tamarind Institute printer training participant August 1997–May 1998","img": "/objects/10062.png","display_template": "image","title":"Jong-Won Lee",
+        "id":"10062" },
+    { "associated_techniques":"Lithography","artists":"Robert Fichter; David Hare; Joy Laville","publishers":"Tamarind Institute","institutions":"Cleveland Museum of Art; Hammer Museum","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1987, Tamarind Institute printer training participant September–December 1986","img": "/objects/10063.png","display_template": "image","title":"Beth Lovendusky",
+        "id":"10063" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"June Wayne; Roy Lichtenstein; Ellsworth Kelly; Malcolm Morley; Sam Francis; Dan Flavin; Susan Rothenberg; Richard Diebenkorn; Jonathan Borofsky; Ronald Davis; Ed Ruscha; Dorthea Rockburne; James Rosenquist; Jasper Johns; Richard Serra; Bruce Nauman; David Hockney; Keith Sonnier; Joe Goode; Robert Motherwell; Frank Stella; Ken Price; Louise Nevelson; Matsumi Kanemitsu; John Levee; Ed Moses; Eleanore Mikus; H.C. Westermann; Jean Dubuffet; Hedda Sterne; William Gropper; Mario Avati; Maryan S. Maryan; Ernst Van Leyden; Gio Pomodoro; Robert Andrew Parker; Irene Siegal; Rodolfo Abdularach; Norman Zammitt; John Altoon; Billy Al Bengsten; James Strombotne; Leon Polk Smith; Kenneth Price; Fran�oise Gilot; Hugh Townley; Andre Martel","printers":"Kenneth Farley; Michelle Ries; Andrew Rubin; Ron McPherson; Kieth Stevens; Stanley Baden; James McGowan; Kenneth Herand; Hope Weiss; Larry Mantello; William Padien; Robert Hollister; Diedre Austin; Claudio Stickar; Gordon Smith; Diana Kingsley; Tom Kiernan; James Reid; Krystine Graziano; Margot Andrew; Raul Mendez; Totti DÕAngelo; Edan McPherson; Alan Holoubek; Anthony Zepeta; Mari Andrews; Rachel Smookler; Chris Sukimoto; Kevin Kennedy; Richard Hammond; Alan Cheung; Richard Garst; Yasutoshi Ishibashi; Martin Klein; Timothy Isham; Larry Krueger; Edward Henderson; Mark Stock; Victor Schiro; James Webb; Barbara Thomason; Daniel Freeman; Robert Bigelow; Charles Ritt; Jeffrey Balsmeyer; John Roberts; Ed Hamilton; Jeff Wasserman; Robbin Geiger; Robert Knisel; Gary Reams; Ron Olds; George Page; Chuck DeLong; Richard Ewen; Ron Adams; Ryu Okabayashi; Christine Fox","publishers":"Gemini G.E.L.; Tamarind Institute","institutions":"Smithsonian American Art Museum; National Gallery of Art; Amon Carter Museum of American Art; Delaware Art Museum; Los Angeles County Museum of Art; Museum of Fine Arts Houston; Detroit Institute of Arts; National Gallery of Australia; Philadelphia Museum of Art; The British Museum; Art Institute Chicago; Whitney Museum of American Art; Fine Arts Museum of San Francisco; Museum of Modern Art; Museum of Fine Arts Boston; RISD Museum","visual_description":"L; S","biographical_notes":"Tamarind Institute master printer, Tamarind Institute studio manager August 1968–July 1970, Tamarind Institute printer fellow December 1966–July 1968","img": "/objects/10064.png","display_template": "image","title":"Serge Lozingot",
+        "id":"10064" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"June Wayne; David Hare","publishers":"Tamarind Institute","institutions":"Delaware Art Museum; Smithsonian American Art Museum","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1971–March 1973","img": "/objects/10065.png","display_template": "image","title":"John Maggio",
+        "id":"10065" },
+    { "subject":"Image","associated_techniques":"Intaglio; Lithography","artists":"Graciella Iturbide; James Rosenquist; Keith Sonnier; Garo Antreasian","printers":"Mark Callen; Bert Price; Tim Baker; Stefanie Kohn; Xiaowen Chen; Jill Lerner; Bill Lagatutta; Cole Rogers; Mark Attwood","publishers":"Graphicstudio; Tamarind Institute","institutions":"National Gallery of Art; Princeton Art Museum; Cleveland Museum of Art","visual_description":"octopus","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1990, Tamarind Institute printer training participant August–December 1989","img": "/objects/10066.png","display_template": "image","title":"Julie Maher",
+        "id":"10066" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Ulfert Wilke; Alvin Doyle Moore; Roger Medearis; Mathieu Persan; Jim Dine; Holly Roberts","printers":"William Masi","publishers":"Tamarind Institute; Angeles Press; Pace Editions","institutions":"National Gallery of Art; Smithsonian American Art Museum; Fine Arts Museum of San Francisco","visual_description":"shell","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow August 1976–May 1978, Tamarind Institute staff printer 1978","img": "/objects/10067.png","display_template": "image","title":"Toby Michel",
+        "id":"10067" },
+    { "associated_techniques":"Lithography","artists":"Ed Ruscha; Otto Piene; Kenneth Price; Rafael Canogar; John Hunter; Jules Engel; Seymour Rosofsky; Ed Moses; Leon Polk Smith; H.C. Westermann; Clinton Adams; Michael Mazur; Eleanore Mikus; Billy Al Bengston; James Strombotne; Karl Kasten; Jules Engel; Kenneth Price; Sam Francis; Samuel Calman Maitin; Hugh Townley; Fran�oise Gilot; David Troughbridge; Faith WIlding","printers":"Manuel Fuentes; Donald Kelley; Kenjilo Nanao; Robert Rogers; Dan Socha; John Sommers","publishers":"Tamarind Institute; Cirrus Editions","institutions":"Amon Carter Museum of American Art; National Gallery of Art; Smithsonian American Art Museum; Los Angeles County Museum of Art","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow February 1968–January 1970","img": "/objects/10068.png","display_template": "image","title":"Jean Milant",
+        "id":"10068" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"June Wayne; Susan Linnell; Edward Henderson; Garo Anteasian","publishers":"Tamarind Institute","institutions":"The British Museum; Cleveland Museum of Art; Princeton University Art Museum","visual_description":"wolf; howling; moon","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1991, Tamarind Institute printer training participant August–December 1990","img": "/objects/10069.png","display_template": "image","title":"Ko Muto",
+        "id":"10069" },
+    { "associated_techniques":"Lithography","artists":"Robert Stackhouse; Maria Baca","publishers":"Tamarind Institute","institutions":"National Gallery of Art","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1992, Tamarind Institute printer training participant August–December 1991","img": "/objects/10070.png","display_template": "image","title":"Veda Ozelle",
+        "id":"10070" },
+    { "associated_techniques":"Lithography","artists":"Roy Lichtenstein; Frank Stella; Ellsworth Kelly; David Hockney; Joyce Kozloff; Judy Chicago; Robert Motherwell; Martin Mull; Elaine De Kooning; Arthur Secunda; John Biggers; Balthus","printers":"David Lantow; Robbin Geiger; Jeff Wasserman; Marie Porter; Ron McPherson; Robert Knisel; Ron Olds; Daniel Lantow; Steve Toole; John Campione; Wild Carrot Letterpress; Daniel Kelcher","publishers":"Gemini G.E.L.; Tamarind Institute; Petersburg Press; Trestle Editions; Limited Editions Club","institutions":"National Gallery of Art; Fine Arts Museum of San Francisco; Metropolitan Museum of Art; Hammer Museum; Norton Simon Museum; Portland Art Museum; Palmer Museum of Art; Baltimore Museum of Art","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow January 1972–April 1973","img": "/objects/10071.png","display_template": "image","title":"Bruce Porter",
+        "id":"10071" },
+    { "subject":"Image","associated_techniques":"Intaglio; Lithography","artists":"Margo Humphrey; Alex Katz; Pat Steir; John Yau; Burt Barr; Markus LŸpertz; James Rosenquist; Lesley Dill; Stefanie Kohn; Chris Ballantyne; Phillip Pearlstein; Jim Dine; JosŽ Luis Cuevas; Ed Ruscha; Christian Marclay; Trisha Brown; Mark Dion","printers":"Tim Baker; Yoo Mi Nam; Jill Lerner; Erika Greenberg-Scheider; Deli Sacilotto; Robert Hanning; Marcia Brown; Eric Vontillius; Conrad Scwable; Alan Holoubek; Patrick Foy; Greg Burnet; Johntimothy Pizzuto; Donald Saff;","publishers":"Tamarind Institute; Graphicstudio","institutions":"Albuquerque Museum; National Gallery of Art; Fine Arts Museum of San Francisco; Baltimore Museum of Art; National Gallery of Victoria; Block Museum of Art","visual_description":"man; robot; square; geometric","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow August 1984–August 1985, Tamarind Institute staff printer November 1985–September 1986","img": "/objects/10072.png","display_template": "image","title":"Tom Pruitt",
+        "id":"10072" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Thomas Freund; William T. Wiley; Candy Nartonis; Gendron Jensen; Dan Rizzie","printers":"Sacha Wellborn","publishers":"Tamarind Institute","institutions":"Detroit Institute of Arts; New Mexico Museum of Art","visual_description":"fish; skeleton; bones","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1993–May 1994, Tamarind Institute printer training participant August 1992–May 1993","img": "/objects/10073.png","display_template": "image","title":"Margaret Raab",
+        "id":"10073" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"John Paul Jones","publishers":"Tamarind Institute","institutions":"Tobey C. Moss Gallery","visual_description":"hand; eye","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1980–May 1981, Tamarind Institute printer training participant August 1979–May 1980","img": "/objects/10074.png","display_template": "image","title":"Paul Rangell",
+        "id":"10074" },
+    { "subject":"Image; Shape","associated_techniques":"Lithography","artists":"Robert Rauschenburg; Sam Francis; Ed Ruscha; Otto Piene; Rafael Canogar; John Levee; Gregory Masurovsky; Hugh Townley; Burhan Doğançay; John Hunter; James Rosenquist","publishers":"Graphicstudio; Tamarind Institute; Mixografia; Castelli Graphics; Professional Prints","institutions":"National Gallery of Art; Amon Carter Museum of Art; New Mexico Art Museum; Los Angeles County Museum of Art; RISD Museum; Remai Modern","visual_description":"diagram; eye; circle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow September 1968–January 1970","img": "/objects/10075.png","display_template": "image","title":"Charles Ringness",
+        "id":"10075" },
+    { "subject":"Image; Shape","associated_techniques":"Lithography","artists":"Julie Mehretu; Joy Laville; Dyani White Hawk; Eric Avery; Red Grooms; Joseph Nechteval","printers":"Cas Macgowan; Holly Rapoport; Josh Bindwald; Megan Anderson; Zac Adams-Bliss; Philip Barber; Steven Anderson","publishers":"Tamarind Institute; Highpoint Editions; Vermillion Editions; Akasha Press; C&C Editions","institutions":"National Gallery of Art; Detroit Institute of Arts; Smithsonian American Art Museum","visual_description":"circle; vase; heads; illusion","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1990, Tamarind Institute printer training participant August–December 1989","img": "/objects/10076.png","display_template": "image","title":"Cole Rogers",
+        "id":"10076" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"James Trujillo; Lorna Simpson; Thomas Francis Barrow","publishers":"Twenty-one Steps Studio; Tamarind Institute","institutions":"Nelson Atkins Museum of Art; Smithsonian American Art Museum; Ruth and Elmer Wellin Museum of Art- Hamilton College","visual_description":"rectangles; bricks; stack","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January 1988–December 1988, Tamarind Institute printer training participant August–December 1987","img": "/objects/10077.png","display_template": "image","title":"Jeffrey ‘Jeff’ Ryan",
+        "id":"10077" },
+    { "subject":"Shape","associated_techniques":"Lithography","publishers":"Tamarind Institute","visual_description":"square; triangles; diagonal; line","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1988, Tamarind Institute printer training participant August–December 1987","img": "/objects/10078.png","display_template": "image","title":"Maria Schleiner",
+        "id":"10078" },
+    { "subject":"Image","associated_techniques":"Lithography","publishers":"Western Graphics Workshop; Tamarind Institute","institutions":"Oakland Museum; Brooklyn Museum of Art; Phoenix Art Museum; Grunewald Collection in Los Angeles; Goddard Center for the Fine Arts; Albuquerque Museum; San Jose Museum; Denver Art Museum; The Lilley Museum of Art; Roswell Museum and Art Center and The University of New Mexico Cancer Center; as well as other institutions and private collections","visual_description":"animal; lizard; salamander","biographical_notes":"Tamarind Institute master printer, Tamarind Institute staff printer 1973–1975, Tamarind Institute printer fellow January 1972–July 1973","img": "/objects/10079.png","display_template": "image","title":"Ben Adams",
+        "id":"10079" },
+    { "associated_techniques":"Intaglio; Lithography","publishers":"Tamarind Institute","institutions":"Spencer Museum of Art","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1995–May 1996, Tamarind Institute printer training participant August 1994–May 1995","img": "/objects/10080.png","display_template": "image","title":"David Afsah-Mohallatee",
+        "id":"10080" },
+    { "subject":"Shape","associated_techniques":"Intaglio; Lithography; Screenprint","artists":"Vito Acconci; Jia Aili; Diana Al-Hadid; Richard Anuszkiewicz; Arakawa; Alice Aycock; Oscar Bailey; Burt Barr; Abel Barroso; Hernan Bas; Georg Baselitz; AbraŠo Batista; Larry Bell; Louise Bourgeois. David Bradshaw; Sebastiaan Bremer; Trisha Brown; William S. Burroughs; Ingrid Calame; Waltercio Caldas; Jim Campbell; Leonora Carrington; Liset Castillo; John Chamberlain; Jake and Dinos Chapman; Sandro Chia; Judy Chicago; Sandra Cinto; Chuck Close; Elisabeth Condon; E.V. Day; Lesley Dill; Jim Dine; Mark Dion; Keith Edmier; Rochelle Feinstein; Teresita Fern‡ndez; Robert Fichter; Lee Friedlander; Carlos Garaicoa; Rico Gatson; Mark Thomas Gibson; Michael Glier; Robert Gordy; Nancy Graves; Iva Gueorguieva; Trenton Doyle Hancock; Ellen Harvey; Arturo Herrera; Graciela Iturbide; Deborah Kass; Alex Katz; Mel Kendrick; Nicholas Krushenick; Guillermo Kuitca; Mernet Larsen; Glenda Le—n; Leslie Lerner; Alfred Leslie; Roy Lichtenstein; Kalup Linzy; Hew Locke; Los Carpinteros; Markus LŸpertz; Robert Mapplethorpe; Christian Marclay; Narsiso Martinez; Allan McCollum; Josiah McElheny; Jason Middlebrook; Abbott Miller; Ellen Lupton; Ibrahim Miranda; Andrea Modica; Vik Muniz; Hugh O'Donnell; Robyn O'Neil; Roxy Paine; JŸrgen Partenheimer; Philip Pearlstein; Beverly Pepper; Jorie Graham; Mette Petri; Robert Rauschenberg; JosŽ Alejandro Restrepo; Duke Riley; James Rosenquist; Ed Ruscha; Donald Saff; Miriam Schapiro; Kenny Scharf; John Scott; Esterio Segura; Alyson Shotz; Hollis Sigler; Lorna Simpson; Kiki Smith; Bosco Sodi; Keith Sonnier; Robert Stackhouse; Pat Steir; John Yau; Mark Stock; SUPERFLEX; Aya Tarek; Francisco Toledo; Fred Tomaselli; Janaina TschŠpe; Richard Tuttle; Rodrigo Valenzuela; Bernar Venet; Siebren Versteeg; William Villalongo; Shraddha Ramani; Sergei Volkov; John Waters; William Wegman; Theo Wujcik; Adja Yunkers","institutions":"National Gallery of Art","visual_description":"circle; sunburst; rays; radiate","img": "/objects/10003.jpg","display_template": "image","title":"Graphicstudio USF",
+        "id":"10003" },
+    { "subject":"Shape; Image","associated_techniques":"Lithography","artists":"Nancy Graves; Philip Pearlstein; Deborah Remington; Betty Hahn; Roy Lichtenstein","printers":"Tom Pruitt; Patrick Foy; Tim Amory; George Holzer","publishers":"Graphicstudio; Ocean Works; Tamarind Institute; Saff Tech Arts","institutions":"National Gallery of Art; Smithsonian American Art Museum; Hammer Museum; Roy Lichtenstein: A Catalogue Raisonne","visual_description":"block; ocean; waves; wave; square; rectangle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow May 1978–May 1979, Tamarind Institute printer training participant August 1977–May 1978","img": "/objects/10081.png","display_template": "image","title":"Conrad Schwable",
+        "id":"10081" },
+    { "subject":"Letter","artists":"Enid Mark; Susan Stewart; Maurice Sendack","printers":"Daniel Keheler; Mary Phelan","publishers":"Corridor Press; Wild Carrot Letterpress; Elm Press; Irish Pig Press; Catawba Press","institutions":"Ursinus College; Toledo Museum of Art","visual_description":"initials; T; S; five; circle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1979–May 1980, Tamarind Institute printer training participant August 1978–May 1979","img": "/objects/10082.png","display_template": "image","title":"Timothy Sheesley",
+        "id":"10082" },
+    { "subject":"Shape","artists":"Joyce Kozloff; David Hare; Paul Sarkisian; Arthur Secunda","printers":"Christopher Cordes; Don Kinner; John Maggio; John Butke; Lloyd Baggs; Robert Arber; Wayne Kimball; John Sommers","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Norton Simon Museum","visual_description":"line; lines; asterisks; dragonfly","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1970–June 1972","img": "/objects/10083.png","display_template": "image","title":"Wayne Simpkins",
+        "id":"10083" },
+    { "subject":"Shape","artists":"Joseph Raffael; Larry Brown; Ron Fondaw; James Surls; Sam Gilliam; Tony Fitzpatrick; Neboj_a Lazi_","printers":"Linda Bangert","publishers":"Tamarind Institute; Ocean Works; Gallery 210","institutions":"Albuquerque Museum; Saint Louis Art Museum","visual_description":"shape; oval; ocean; sun; landscape","biographical_notes":"Tamarind Institute master printer, Tamarind Institute education director 1988–1998, Tamarind Institute printer fellow August 1977–June 1979","img": "/objects/10084.png","display_template": "image","title":"Jeffrey Sippel",
+        "id":"10084" },
+    { "subject":"Letter; Shape","artists":"Ruth Asawa; Frank Lobdell; Joseph Albers; Robert Cremean; Walasse Ting; William Turnbull; George Sugarman; Peter Phillips; George Earl Ortman; James Strombotne; Andre Bloc; Herbert Bayer; Leon Golub; Rufino Tamayo; Allen Jones; Rita Letendre; Gi˜ Pomodoro; Matsumi Kanemitsu; José Luis Cuevas; Richard Howard Hunt; Nicholas Krushenick; Gego; Ynez Johnston; Richard Hunt","printers":"Kenneth Tyler","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art; Smithsonian American Art Museum; Norton Simon Museum; Los Angeles County Museum of Art","visual_description":"Initials; C; S","biographical_notes":"Tamarind Institute master printer, Tamarind Insitute studio manager August 1965–July 1968, Tamarind Institute printer fellow February–March 1964 and July 1964–July 1965","img": "/objects/10085.png","display_template": "image","title":"Clifford Smith",
+        "id":"10085" },
+    { "subject":"Shape","artists":"Betye Saar; Elaine Kurtz; Elaine De Kooning; Howard Hodgkin; Richard Tuttle; Howardena Pindell; Laura Shechter; William Bailey; Clover Vail; Martyl; Sylvia Sleigh; Nancy Spero; Patsy Norvell; Anne Healy; Mary Grigoriadis; Mary Beth Edelson; Gene Davis; Dottie Atty; Maude Boltz; Alice Neel; Not Vital; James Rosenquist; Judy Rifka; Donald K. Sultan","printers":"Cinda Sparling; Larry B. Wright; Patricia Branstead; Carol Bundy; Arnie Samet; Toshiyasu Shinozaki; Tracey Regester","publishers":"Library Fellows of the Whitney Museum of American Art; Bernard Jacobson; Solo Press; G.W. Einstein Co; Tamarind Institute; Baron/BoisantŽ Editions; Joe Fawbush Editions","institutions":"National Gallery of Art; Smithsonian American Art Museum; Museum of Fine Arts Boston; Toledo Museum of Art","visual_description":"triangle; harp; round","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow July 1972–April 1974","img": "/objects/10086.png","display_template": "image","title":"Judith Solodkin",
+        "id":"10086" },
+    { "subject":"Image","artists":"Clinton Adams; Leonard Lehrer; Sam Francis; Joyce Kozloff; James McGarrell; Andrew Dasburg; Otto Piene; Ed Ruscha; Gregory Murovsky; Hugh Townley; Rafael Canogar; John Levee; John Hunter; Burhan Doğançay; Flavio Garcia; Herman Rose; Deborah Remington; Joseph Raffael","printers":"Ben Q. Adams; Frances Thiel; Stephen Britko; Glenn Brill; Ed Hamilton; Harry Westlund; Lynn Baker; Manuel Fuentes; Donald Kelley; Jean Milant; Kenjilo Nanao; Robert Rogers; Dan Socha; Joy Purmal Baker; David Salgado; Marlys Dietrick; Russell Hamilton; Robert Blanchard; William Masi; Toby Michel","publishers":"Tamarind Institute; San Juan Studio","institutions":"National Gallery of Art; Smithsonian American Art Museum; Amon Carter Museum of American Art; Albuquerque Museum; New Mexico Museum of Art; Hammer Museum; Norton Simon Museum; Indianapolis Museum of Art","visual_description":"animal; bird; dove","biographical_notes":"Tamarind Institute master printer, Tamarind Insitute director of research and printer training 1983–1984, Tamarind Institute technical director 1975–1983, Tamarind Institute studio manager 1970–1975, Tamarind Institute printer fellow September 1968–January 1970","img": "/objects/10087.png","display_template": "image","title":"John Sommers",
+        "id":"10087" },
+    { "subject":"Shape","artists":"Cinda Sparling; Robert Zakanich","publishers":"Tamarind Institute","visual_description":"Shapes; Square; Circle; Triangle; Stacked; Inside; Geometric","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1986, Tamarind Institute printer training participant September–December 1985","img": "/objects/10088.png","display_template": "image","title":"Molly Jo Souders",
+        "id":"10088" },
+    { "subject":"Letter; Shape","artists":"Philip Pearlstein; adja yunkers; Michael Mazur; Louise Nevelson; Clinton Adams; Seena Donneson; Karl Kasten; Eleanore Mikus; Barbaralee Diamonstein; Ed Moses; Seymour Rosofsky; William Gropper; Gio Pomodoro; Maryan S. Maryan; Hedda Sterne; Lee R. Chesney Jr. ; Irene Siegel; Ernst Van Leyden; Robert Andrew Parker; Norman Zammit; John Altoon; Billy Al Bengston; James Strombotne","printers":"John Butke; Dan Socha","publishers":"Graphicstudio; Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art; Los Angeles County Museum of Art; Hammer Museum","visual_description":"box; inverted; alphabet; letter; A; rectangle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer feloow September 1966–September 1968,","img": "/objects/10089.png","display_template": "image","title":"Anthony Stoeveken",
+        "id":"10089" },
+    { "subject":"Shape","artists":"Robert Rauschenburg; Sam Francis; Ed Ruscha; Otto Piene; Rafael Canogar; John Levee; Gregory Masurovsky; Hugh Townley; Burhan Doğançay; John Hunter; James Rosenquist","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Los Angeles County Museum of Art; Fine Arts Museums of San Francisco; Art Institute Chicago; Norton Simon Museum","visual_description":"Dots; stars; constellation; dot","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1968–August 1968 and July 1969–June 1970","img": "/objects/10090.png","display_template": "image","title":"Eugene Sturman",
+        "id":"10090" },
+    { "subject":"Image","artists":"Gendron Jensen; Clinton Adams; Robert Colescott","publishers":"Tamarind Institute","institutions":"Cleveland Museum of Art; Princeton University Art Museum; Swann Auction Galleries; Albuquerque Museum","visual_description":"Plane; Aircraft; flight; horizon; land; sky; fly","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1989, Tamarind Institute printer training participant August–December 1988","img": "/objects/10091.png","display_template": "image","title":"Anya Syzkitka",
+        "id":"10091" },
+    { "artists":"Jan Stussy; Otto Piene; Paul Harris; Masuo Ikeda; Sam Francis; Gregory Masurovsky; Emerson Woelffer; Matsumi Kanemitsu; John Levee; Salvador Bru; Arthur Secunda; Burhan Doğançay; William Pettet; Ynez Johnston; Richard Diebenkorn","publishers":"Tamarind Institute; Litho Shop","institutions":"National Gallery of Art; Norton Simon Museum; Lambsquay Gallery; Amon Carter Museum of American Art","visual_description":"Japanese; Character; Kanji; Name; Language","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow March 1969–June 1970","img": "/objects/10092.png","display_template": "image","title":"Hitoshi Takatsuki",
+        "id":"10092" },
+    { "subject":"Letter","artists":"Billy Al Bengston; Gail Gash; Judy Rifka; Vivian Torrence","publishers":"Tamarind Institute","institutions":"Birmingham Art Museum; Washington State Arts Commission","visual_description":"Initials; letters; B; T; graphic","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1982–May 1983, Tamarind Institute printer training participant August 1981–May 1982","img": "/objects/10093.png","display_template": "image","title":"Barbara Telleen",
+        "id":"10093" },
+    { "subject":"Image","artists":"Andrew Michael Dasburg; Michelle Stuart","printers":"Ben Q. Adams; John Sommers; Stephen Britko; Glenn Brill; Ed Hamilton; Harry Westlund; Lynn Baker","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Albuquerque Museum","visual_description":"shoe; boot; leather; cowboy; spurs; silhouette","biographical_notes":"Tamarind Institute master printer, Tamarind Institute staff printer 1976, Tamarind Institute printer fellow August 1974–July 1976","img": "/objects/10094.png","display_template": "image","title":"Frances Thiel",
+        "id":"10094" },
+    { "subject":"Shape","artists":"Jan Stussy; Paul Harris; Arthur Secunda; Gregory Masurovsky; William Crutchfield; Emerson Woelffer; Salvador Bru; Lee Mullican; William Pettet; Matsumi Kanemitsu; Richard Diebenkorn; Luchita Hurtado; Ed Ruscha; June Wayne","printers":"Ed Hamilton; Jean Milant","publishers":"Tamarind Institute; Cirrus Editions; Brooke Alexander Inc.; Tamstone","institutions":"Amon Carter Museum of American Art; Smithsonian American Art Museum; Norton Simon Museum; Hammer Museum; Gerrish Fine Art","visual_description":"Symbol; Astrology; Sign; Leo; Sun; Moon; Cloud","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1969–June 1970","img": "/objects/10095.png","display_template": "image","title":"David Trowbridge",
+        "id":"10095" },
+    { "subject":"Letter; Shape","associated_techniques":"Intaglio","artists":"Frank Stella; Helen Frankenthaler; Roy Lichtenstein; David Hockney; Robert Rauschenberg; Anthony Caro; Jasper Johns; Josef Albers; Anni Albers; Claes Oldenburg; Masami Teraoka; Ellsworth Kelly; Nancy Graves; Anthony Caro; Robert Motherwell; James Rosenquist; Joan Mitchell; John Altoon; Sam Amato; Ed Baynard; Per Inge Bj¿rlo; Stanley Boxer; John Chamberlain; William Crutchfield; Allan DÕArcangelo; Ronald Davis; Willem De Kooning; Mark di Suvero; Kosso Eloul; Jules Engel; Sam Francis; Alberto Giacometti; Ed Giobbi; Joe Goode; Nancy Grave; Richard Hamilton; Hardy Hanson Michael Heizer; Al Held; Paul Jenkins; Donald Judd; Ellsworth Kelly; Edward Kienholz; R.B. Kitaj; Peter Takal; N. Krishna Reddy; Alfred Jensen; Louise Nevelson; Malcolm Morley; Ed Baynard; Ken Price; James Strombotne; Bruce Conner; Rufino Tamayo; Lee Mullican; Robert Hansen; Jacob Landau; Gerald Laing; Nicholas Krushenick; Leon Golub; Joop Beljon; Sonia Gechtoff; G. Ray Kerciu; Lawrence Calcagno; Gabriel Kohn; Edward Avadisian; James Gill; Richard Hunt; Piotr Kowalski; Terence la Noue; Bruce Nauman; John Newman; Kenneth Noland; Hugh OÕDonnel; George (Earl) Ortman; Sam Posey; Kenneth Price; Patrick Procktor; Joseph Raffael; George Rickey; Ed Ruscha; David Salle; Arthur Secunda; Maurice Sendak; Richard Serra; Ben Shahn; Alan Shields; Richard Smith; T.L. Solien; Keith Sonnier; Steven Sorman; Altoon Sultan; Donald Sultan; Rikio Takahashi; Masami Teraoka; Wayne Thieubad; Gina Tamao; Jack Tworkov; John Walker; Andy Warhol; Charles White; Robert Zakanitch","printers":"Kimberley Bursic; Roger Campbell; Kathy Cho; Marabeth Cohen-Tyler; Chris Creyts; Bob Cross; Tom deBolt; Barbara Delano; Kevin Falco; Betty Fiske; Lee Funderburg; Lindsay Green; Kim Halliday; Josh Hutcheson; Paul Imboden; Richard Karnatz; Rolf Kaul; Anthony Kirk; Rodney Konopaki; Mark Mahaffey; Jed Marshall; Brian Maxwell; Henry McGee; Duane Mitch; Michael Mueller; Susan Oehme; Steve Reeves; Yasuyuki Shibata; Paul Stillpass; Tom Strianese; Kim Tyler; Kay Tyler; John Wagner; Charles Ritt; Bruce Lowney; Paul Drake; Robert Bigelow; Octavio Pereira; Yann Samson; Adolph Ricshner; Robert de la Roscha; James Webb; George Page; Michael Mueller; Serge Lozingot; Ron Olds; Ron McPherson; Gary Reams; Robert Knisel; Jeff Wasserman; Ron Adams; Charles Ritt; Stuart Henderson; Robert Peterson; Andrew Vlady; Timothy Isham; Bruce Lowney","publishers":"Gemini G.E.L.; Tamarind Institute; Gemini Ltd.; Tyler Graphics","institutions":"National Gallery of Art; National Gallery of Australia; Museum of Modern Art; Amon Carter Museum of American Art; Norton Simon Museum; Victoria & Albert Museum; Telfair Museum","visual_description":"Circle; Lines; Fraction; Letters; Symbols; T; K","biographical_notes":"Tamarind Institute master printer, Tamarind Institute technical director September 1964–July 1965, Tamarind Institute printer fellow June 1963–July 1964","img": "/objects/10096.png","display_template": "image","title":"Kenneth Tyler",
+        "id":"10096" },
+    { "artists":"Dan Rizzie; Getulio Moreira","printers":"Margaret Raab; Bill Lagatutta","publishers":"Tamarind Institute","visual_description":"Character; Line; Lines; Handwriting; cursive; signature; abstract","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1993–May 1994, Tamarind Institute printer training participant August 1992–May 1993","img": "/objects/10097.png","display_template": "image","title":"Sacha P. Welborn",
+        "id":"10097" },
+    { "subject":"Image; Shape","artists":"Micsh Kohn; Minna Citron; James D. Butler; John Baldessari; Charles White; Garo Antreasian; Clinton Adams; Betye Saar; Arthur Secunda; Jan Stussy; William Pettet; Claire Falkenstein; Bette Greenberg; Karl Stanley Benjamin; Florence Arnolds; Phillip Aziz; Robert Throdore McCall; R.C. Gorman; Nick Abdalla","printers":"Ben Q. Adams; Frances Thiel; John Sommers; Stephen Britko; Glenn Brill; Ed Hamilton; Lynn Baker","publishers":"Lake Studios Editions; Tamarind Institute; Cirrus Editions","institutions":"Smithsonian American Art Museum; National Gallery of Art; New Mexico Museum of Art; Albuquerque Museum; Los Angeles County Museum of Art; Art Institute Chicago; Fine Arts Museum of San Francisco","visual_description":"Line; Curl; Column; Ionic; Architecture; Greek; Historical;","biographical_notes":"Tamarind Institute master printer, Tamarind Institute master printer–in–charge Tamarind Publications 1972–1975, Tamarind Institute staff printer 1971, Tamarind Institute printer fellow February 1970–January 1971","img": "/objects/10098.png","display_template": "image","title":"Harry Westlund",
+        "id":"10098" },
+    { "subject":"Shape","artists":"Otto Piene; Gregory Masurovsky; Salvador Bru; Paul Harris; William Pettet; Matsumi Kanemitsu; William Crutchfield; Emerson Woelffer; Clayton Pond; Vija Celmins; Fritz Scholder","printers":"John Sommers","publishers":"Tamarind Institute; Janus Gallery","institutions":"Los Angeles County Museum of Art; Amon Carter Museum of American Art; Museum of Modern Art; Norton Simon Museum","visual_description":"Shape; Abstract; Symbol; lines; flower; citrus; orange; fruit;","biographical_notes":"Tamarind Institute master printer, Tamarind Institute assistant studio manager 1970–1971, Tamarind Institute printer fellow June 1969–June 1970","img": "/objects/10099.png","display_template": "image","title":"S. Tracy White",
+        "id":"10099" },
+    { "subject":"Shape","artists":"Roberto Benothico; Jaime Palacios; Donald Sultan","printers":"Amy Goodman; Kristy Rawson; Betty Hahn","publishers":"Tamarind Institute","institutions":"Amon Carter Museum of American Art; Museum of Fine Arts Houston","visual_description":"Shape; Circle; Crescent; Moon; Waves; view; scene; Ocean; Water; Sun; Sky","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer feloow August 1996–May 1997, Tamarind Institute printer training participant August 1995–May 1996","img": "/objects/10100.png","display_template": "image","title":"Ross Zirkle",
+        "id":"10100" },
+    { "subject":"Letter; Shape","artists":"Ruth Asawa; José Luis Cuevas; Jan Forsberg; Leon Golub; George Sugarman; Ynez Johnston; Robert Hansen; Kenjiro Azuma; Matsumi Kanemitsu; Robert Cremean; George Earl Ortman; Herbert Bayer; Allen Jones; Frank Lobdell","publishers":"Tamarind Institute","institutions":"Amon Carter Museum of American Art; Museum of Fine Arts Houston","visual_description":"Shape; Rectangle; character; Japanese; Kanji; Lines","biographical_notes":"Tamarind Institute printer fellow January 1965–July 1966","img": "/objects/10101.png","display_template": "image","title":"Kinji Akagawa",
+        "id":"10101" },
+    { "subject":"Shape","artists":"Jasper Johns; Michael Mazur; Lee Bontecou; Ed Moses; Karl Karsten; Rober Rauschenberg; Helen Frankenthaler; Larry Rivers; Seymour Rosofsky; Alex Katz","printers":"Donn Steward","publishers":"Universal Limited Art Editions; Tamarind Institute; Bank Street Atelier","institutions":"National Gallery of Art; Norton Simon Museum; Detroit Institute of Arts; The Metropolitan Museum of Art; RISD Museum; Minneapolis Institute of Art; Fine Arts Museums of San Francisco; Colby College Museum of Art","visual_description":"Circle; circles; shape; shapes; inverted; contrast; symmetrical","biographical_notes":"Tamarind Institute printer fellow September 1967–September 1968","img": "/objects/10102.png","display_template": "image","title":"Frank Akers",
+        "id":"10102" },
+    { "subject":"Letter; Shape","artists":"Ruth Asawa; Frank Lobdell; Josef Albers; Robert Cremean; Walasse Ting; William Turnbull; George Sugarman; Peter Phillips; George Earl Ortman; James Strombotne; Andre Bloc; Herbert Bayer; Leon Golub; Rufino Tamayo; Allen Jones; Rita Letendre; Giò Pomodoro; Matsumi Kanemitsu; José Luis Cuevas; Richard Howard Hunt; Nicholas Krushenick; Gego; Ynez Johnston; Richard Hunt","printers":"Ron Adams; Stuart Henderson; Ron McPherson; James Webb; Daniel Freeman; Ron Olds; Chris Cordes; Don Kinner; John Maggio; John Butke; Robert Arber; Wayne Kimball; Wayne Simpkins; Ed Hamilton; Craig Conwell; John Roberts; Ernest de Soto","publishers":"Gemini G.E.L.; Tamarind Institute; Cirrus Editions; APC Editions; Editions Press","institutions":"National Gallery of Art; Fine Arts Museums of San Francisco; Museum of Modern Art; Metropolitan Museum of Art; The Annex Galleries","visual_description":"Square; name; Signature; stamp; hanko Japanese; inkan","biographical_notes":"Tamarind Institute printer fellow September–December 1971","img": "/objects/10103.png","display_template": "image","title":"Lloyd Baggs",
+        "id":"10103" },
+    { "subject":"Letter","publishers":"Tamarind Institute","visual_description":"Initial; Initials; Signature; J; B; Handwriting","biographical_notes":"Tamarind Institute printer fellow June–September 1965","img": "/objects/10104.png","display_template": "image","title":"Jon Beckley",
+        "id":"10104" },
+    { "subject":"Letter","artists":"Miriam Schapiro; Richard Diebenkorn","publishers":"Tamarind Institute; The Original Press","institutions":"Amon Carter Museum of American Art; Fine Arts Museums of San Francisco; Norton Simon Museum","visual_description":"Initial; Initials; F; B; Handwriting; Signature","biographical_notes":"Tamarind Institute printer fellow June–August 1964","img": "/objects/10105.png","display_template": "image","title":"Frank Berkenkotter",
+        "id":"10105" },
+    { "subject":"Letter","artists":"Robert Motherwell; Bruce Nauman; Robert Rauschenberg; Ronald Davis; Ellsworth Kelly; Clinton Adams; Man Ray; Jesse Reichek; Frank Lobdell","printers":"Serge Lozingot; Barabara Thomason; Anthony Zepeda; Daniel Freeman; Charles Ritt; James Webb; Ed Hamilton; Kenneth Tyler; Octavio Pereira; Kim Halliday","publishers":"Brooke Alexander Inc.; Gemini G.E.L.; Tamarind Institute; Erwin Erickson","institutions":"National Gallery of Art; Detroit Institute of Arts; Norton SImon Museum; Daedalus Foundation; Fine Arts Museums of San Francisco; Metropolitan Museum of Art; British Museum; Museum of Fine Arts Houston","visual_description":"Initial; Initials; R; B; Handwriting; Name; Signature","biographical_notes":"Tamarind Institute printer fellow February–September 1966","img": "/objects/10106.png","display_template": "image","title":"Robert Bigelow",
+        "id":"10106" },
+    { "subject":"Letter","artists":"George McNeil; Andrew Michael Dasburg; Fran�oise Gilot","printers":"John Sommers; Helen Horne","publishers":"Tamarind Institute; Dayspring Graphics","institutions":"Berman Museum of Art; University of North Dakota; Albuquerque Museum","visual_description":"Initials; Initial; R; B; Type; Font; Letter","biographical_notes":"Tamarind Institute printer fellow February 1976–June 1977","img": "/objects/10107.png","display_template": "image","title":"Robert Blanchard",
+        "id":"10107" },
+    { "subject":"Letter","artists":"Josef Albers; James Strombotne; Lee Mullican; Walasse Ting; Bruce Conner; Rufino Tamayo; Robert Hansen; Leon Golub; Robert Murray; Gabriel Kohn; Richard Hunt","printers":"Kenneth Tyler; Jim Webb","publishers":"Gemini G.E.L.; Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art; Fine Arts Museums of San Francisco; Norton Simon Museum; Hammer Museum","visual_description":"Inital; B; Signature; Handwriting; Italics","biographical_notes":"Tamarind Institute printer fellow September 1964–September 1965","img": "/objects/10108.png","display_template": "image","title":"Bernard Bleha",
+        "id":"10108" },
+    { "subject":"Letter","artists":"Clinton Adams; Dorothy Dehner; James Boynton; Stanley William Hayter; Paul Sarkisian","printers":"Anthony Stoeveken; Dan Socha; Chris Cordes; Don Kinner; John Maggio; Lloyd Baggs; Robert Arber; Wayne Kimball; Wayne Simpkins","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Albuquerque Museum; Norton Simon Museum; Hammer Museum","visual_description":"Initial; Initials; J; B; Handwriting; Cursive; Signature","biographical_notes":"Tamarind Institute printer fellow September 1966–September 1967 and August 1970–January 1972","img": "/objects/10109.png","display_template": "image","title":"John Butke",
+        "id":"10109" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Jerome Kaplan; Carl Morris; William Brice; Richard Diebenkorn","publishers":"Tamarind Institute","institutions":"Amon Carter Museum of American Art; Stanley Museum of Art of University of Iowa; Fine Arts Museum of San Francisco","visual_description":"Initial; C; Type; Serif","biographical_notes":"Tamarind Institute printer fellow January–May 1962","img": "/objects/10110.png","display_template": "image","title":"Wesley Chamberlin",
+        "id":"10110" },
+    { "subject":"Letter","artists":"Louise Nevelson; Hugo Weber; Sonia Gechtoff; Nathan Oliveira; Sam Francis; JunÕichiro Sekino; Gabriel Kohn; Josef Albers; Allen Jones; Peter Takal","publishers":"Tamarind Institute","institutions":"Smithsonian American Art Museum; Amon Carter Museum of American Art","visual_description":"Initials; Symbols; Angles; J; D","biographical_notes":"Tamarind Institute printer fellow February 1963–August 1964","img": "/objects/10111.png","display_template": "image","title":"John E. Dowell Jr.",
+        "id":"10111" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Koak; Henni Alftan; Laylah Ali; Sidney Amaral; Noel W. Anderson; Garo Antreasian; Polly Apfelbaum; Valerie Arber; Stuart Arends; Charles Arnoldi; Eric Avery; Donald Baechler; Chris Ballantyne; Abel Barroso; José Bedia; John Beerman; Inka Bell; Barton Beneš; Billy Al Bengston; Tom Berg; Ellen Berkenblit; Willie Birch; SCUBA: Sandra Wang and Crockett Bodelson; Jarvis Boyland; William Brice; Daniel Brice; Laurent de Brunhoff; Suzanne Caporael; Squeak Carnwath; Nick Cave; Enrique Martínez Celaya; Alex Cerveny; Raven Chacon; Louisa Chase; Judy Chicago; Ryan Travis Christian; Sonya Clark; Sue Coe; Willie Cole; Jordan Ann Craig; José Luis Cuevas; Timothy Cummings; Amy Cutler; Andrew Dasburg; Ian Davis; Tony DeLap; Lesley Dill; Jim Dine; Mark Dion; Tara Donovan; Luke Dorman; R. Luke DuBois; Stella Ebner; Nina Elder; Adam Feibelman; Roy De Forest; Lucy Fradkin; Nancy Friedemann; Nancy Friese; Katsura Funakoshi; Miguel Gandert; Eric J. Garcia; Jeffrey Gibson; Scott Greene; Tiago Gualberto; Frederick Hammersley; Harmony Hammond; Valerie Hammond; David Hare; Dyani White Hawk; Edward Henderson; Anna Hepler; Gaby Hernández; Szu-Han Ho; Margo Humphrey; Julia Jacquette; Tom Joyce; Roberto Juarez; Matsumi Kanemitsu; Elaine de Kooning; Michael Krueger; Nicholas Krushenick; Fay Ku; Robert Kushner; Jane Lackey; Jonathan Lasker; Joy Laville; Ellen Lesperance; David X. Levine; Mark Licari; Linda Linko; Hung Liu; José Antonio Suárez Londoño; Nicola López; Matt Magee; Nikki Maloof; Zahra Marwan; Deloss McGraw; George McNeil; Sean Mellyn; Harold Mendez; Will Mentor; linn meyers; Tom Miller; Mary Mito; George Miyasaki; John Morris; Mark Mulroney; Ethan Murrow; Monica Nador; Candy Nartonis; Louise Nevelson; Rashaad Newsome; Christine Nguyen; Aaron Noble; Toyin Ojih Odutola; Nathan Oliveira; Danielle Orchard; Osmeivy Ortega Pacheco; Jaime Palacios; Chris Pappan; Rosana Paulino; Rachel Perry; Outi Pieski; Heidi Pollard; Liliana Porter; Hayal Pozanti; Ken Price; Robert Pruitt; Mel Ramos; David Rathman; Brian Rea; Deborah Remingon; Dan Rizzie; Frank Romero; Mateo Romero; Johnnie Winona Ross; David Row; Valerie Roybal; Ed Ruscha; Maja Ruznic; Alison Saar; Juan Sánchez; Italo Scanga; Fritz Scholder; Jonathan Seliger; Jewel Shaw; Matthew Shlian; James Siena; Gary Simmons; Rose B. Simpson; Duane Slick; Kiki Smith; Shinique Smith; Jaune Quick-to-See Smith; Josh Smith; Steven Sorman; Robert De Niro, Sr.; Gael Stack; May Stevens; David Storey; Earl Stroh; Michelle Stuart; Donald Sultan; Luis Tapia; Judy Tuwaletstiwa; Chris Uphues; Peter Voshefski; Marie Watt; June Wayne; Emmi Whitehorse; Paula Wilson; Robin Winters; Emerson Woelffer; Ted Lauritzen Wright; Susan York","printers":"June Wayne; Valpuri Remling; Brandon Gunn; Andrew Thompson; Ben Schoenburg; Deb Chaney","institutions":"University of New Mexico Art Museum","visual_description":"T; paper; lamp; alchemy; stone","img": "/objects/10001.png","display_template": "multiple","title":"Tamarind Institute",
+        "id":"10001" },
+    { "subject":"Shape; Word","associated_techniques":"Intaglio","artists":"Jim Nutt; Roger Brown; William T. Wiley; Mark Adams; Norman Ackroyd; Peter Alexander; Terry Allen; Robert Arneson; Charles Arnoldi; John Baeder; Squeak Carnwrath; Christo; Gordon Cook; Robert Cottingham; Laddie Dill; James Ford; Rupert Garcia; Oliver Jackson; Jacob Kainen; Tom Knechtel; Don Nice; Claes Oldenburg; Deborah Orapallo; Sabina Ott; Ed Paschke; Philip Pearlstein; Ed Ruscha; Irvin Tepper; Pat Steir; Anne Thornycroft; Jim Torlakson; Jack Tworkov; Beth van Hoesen","printers":"Timothy Berry","publishers":"Landfall Press","visual_description":"biomorphic; face; abstract; teaberry; press; hat","img": "/objects/10014.jpg","display_template": "image","title":"Teaberry Press",
+        "id":"10014" },
+    { "subject":"Image; Word","artists":"Robert Rauschenberg; Andy Warhol; Alex Katz; James Rosenquist; Nam June Paik; Richard Serra; Cy Twombly; Claes Oldenberg; Jim Dine; Mark di Suvero; Lee Bontecou; Dan Flavin; Sol Lewitt","printers":"Robert Blanton","publishers":"Brand X Editions","visual_description":"lion; animal; griffin; seal; fire; styria; studio; words","img": "/objects/10004.jpg","display_template": "image","title":"Styria Studio",
+        "id":"10004" },
+    { "subject":"Shape","associated_techniques":"Intaglio","artists":"Richard Artschwager; John Baldessari; Larry Bell; Ross Bleckner; Jonathan Borofsky; Cecily Brown; Chris Burden; Sophie Calle; Vija Celmins; William Crutchfield; Ron Davis; Tacita Dean; Thomas Demand; Richard Diebenkorn; Sam Francis; Frank Gehry; Allen Ginsberg; Robert Gober; Joe Goode; Philip Guston; Ann Hamilton; David Hammons; Michael Heizer; David Hockney; Jasper Johns; Ellsworth Kelly; Toba Khedoori; Edward & Nancy Kienholz; Roy Lichtenstein; Man Ray; Brice Marden; Julie Mehretu; Malcolm Morley; Elizabeth Murray; Bruce Nauman; Isamu Noguchi; Claes Oldenburg; Darryl Pottorf; Ken Price; Robert Rauschenberg; Darryl Pottorf & Robert Rauschenberg; Dorothea Rockburne; James Rosenquist; Susan Rothenberg; Allen Ruppersberg; Ed Ruscha; Analia Saban; Richard Serra; Joel Shapiro; Keith Sonnier; Saul Steinberg; Frank Stella; Richard Tuttle; Franz West; Terry Winters","printers":"Kenneth Tyler; Sidney Felsen; Stanley Grinstein","publishers":"Tamarind Institute","institutions":"National Gallery of Art","visual_description":"gemini; twins; circle; II","img": "/objects/10006.jpeg","display_template": "image","title":"Gemini G.E.L.",
+        "id":"10006" },
+    { "subject":"Word","artists":"Andy Warhol; Roy Lichtenstein; Larry Rivers; James Rosenquist; Claes Oldenburg; Marisol; Elaine de Kooning; Helen Frankenthaler; Nicholas Krushenick; Alfred Jensen; Janet Fish; Valerie Jaudon; Richard Kalina; Marisol; Richard Anuszkiewicz; Ernest Trova; Alan Jones; Peter Phillips; Gerald Laing","printers":"Steve Poleskie; Brice Marden","visual_description":"words; chiron; press; new; york; new york; chiron press","img": "/objects/10010.jpg","display_template": "image","title":"Chiron Press",
+        "id":"10010" },
+    { "subject":"Letter; Shape","artists":"Yaacov Agam; Karel Appel; Arman; Romare Bearden; Gene Davis; Don Eddy; Alberto Giacometti; Lester Johnson; Alex Katz; Richard Lindner; Roberto Matta; Lowell Nesbitt; Robert Rauschenberg; Harry Bertoia; Victor Vasarely; Larry Zox","visual_description":"letter; l; a; g; geometric","img": "/objects/10015.jpg","display_template": "image","title":"London Arts Group",
+        "id":"10015" },
+    { "subject":"Letter","artists":"Rufino Tamayo","printers":"Luis Remba; Lea Remba","publishers":"Mixografia","visual_description":"initials T G M","img": "/objects/10013.jpeg","display_template": "image","title":"Taller de Gráfica Mexicana",
+        "id":"10013" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Derrick Adams; Richard Bosman; Lynda Benglis; Suzanne Caporael; Robert Cottingham; Lesley Dill; Jim Dine; Jeffrey Gibson; Sam Gilliam; Michelle Grabner; Al Held; Robert Kelly; JosŽ Lerma; Nicola L—pez; Marie Lorenz; David Lynch; Maser; Judy Pfaff; Alison Saar; Sean Scully; David Shapiro; Alan Shields; Jaune Quick-to-See Smith; Swoon; Mickalene Thomas; Dyani White Hawk","institutions":"Chazen Museum of Art; National Gallery of Art; The Art Institute of Chicago; J.B. Speed Art Museum; British Museum","visual_description":"letters T; P","img": "/objects/10005.jpeg","display_template": "image","title":"Tandem Press",
+        "id":"10005" },
+    { "subject":"Image","associated_techniques":"Intaglio","artists":"Derrick Adams; Ghada Amer; Joell Baxter; Amy Bay; Gail Biederman; Nancy Blum; Erika Blumenfeld; Sebastiaan Bremer; Zana Briski; Beth Campbell; Karlos Carcamo; Amy Chan; Paul Chan; Saul Chernick; Theresa Chong; Cammi Climaco; Jeannie Crosby; Amy Cutler; Edward Del Rosario; Shoshana Dentz; Blane De St. Croix; Mark Dion; Thomas Dozol; Angie Drakopoulos; Nicolas Dumit Estevez; Heide Fasnacht; Joe Figm; Rosemarie Fiore; Ivan Forde; LaToya Ruby Frazier; Deborah Grant; Joanne Greenbaum; Jose Guinto; Arturo Herrera; Havard Homstvedt; Wennie Huang; Matthew Day Jackson; Marie Jager; Hong Seon Jang; Jennie C. Jones; Amy Kao; Darina Karpov; Jane Kent; Fawad Khan; David Kramer; Steve Lambert; Fabienne Lasserre; Geraldine Lau; Jonggeon Lee; Joan Linder; Chris Martin; Steve McClure; Ryan McGinness; Steven Millar; Carlos Motta; Carrie Moyer; David Opdyke; Bruce Pearson; Sheila Pepe; Emilio Perez; Enoc Perez; Danica Phelps; Chloe Piene; William Powhida; Daniel Reiser; Daniel Rich; Gina Ruggeri; Juan S‡nchez; Michael Schall; Dread Scott; Kate Shepherd; Jean Shin; James Siena; Amy Sillman & Jef Scharf; Kiki Smith; Shinique Smith; Sunny Smith; Philip Taaffe; Alison Elizabeth Taylor; Dannielle Tegeder; Mary Temple; Hank Willis Thomas; Janaina TschŠpe; Mark Dean Veca; William Villalongo; Kara Walker; Saya Woolfalk; Lynne Yamamoto","printers":"Nathan Catlin","publishers":"Marie Tennyson","visual_description":"arm with ink roller in profile","img": "/objects/10011.jpeg","display_template": "image","title":"Lower East Side Printshop",
+        "id":"10011" },
+    { "subject":"Image","artists":"Sam Gilliam; Ellen Gallagher; Christian Marclay; Joyce J. Scott; Liliana Porter; Sanford Biggers; Soledad SalamŽ; Jo Smail; Robin Rose; Jae Ko; Louisa Chase; Lynn Silverman; Sonya Clark; Mark Strand","printers":"Valpuri Remling; Julia Marco","visual_description":"bat; winged creature","img": "/objects/10016.jpg","display_template": "image","title":"Goya-Girl Press",
+        "id":"10016" },
+    { "subject":"Letter","artists":"Banele Khoza; Nabeeha Mohamed; Simon Attwood; William Kentridge","printers":"Mark Attwood","visual_description":"letters; A; P","img": "/objects/10012.jpeg","display_template": "image","title":"The Artist&#39;s Press",
+        "id":"10012" },
+    { "subject":"Letter","artists":"William Nelson Copley; Robert Hansen; Walasse Ting; Miriam Schapiro; Rufino Tamayo","printers":"Kenneth Tyler; Ernest Rosenthal; Clifford Smith","publishers":"Tamarind Institute","institutions":"Norton Simon Museum; University of Iowa Stanley Museum of Art; Museum of Modern Art","visual_description":"initials; letters; alphabet; d; k; type; typography","biographical_notes":"Tamarind Institute printer fellow August–November 1964","img": "/objects/10112.png","display_template": "image","title":"Kaye Dyal",
+        "id":"10112" },
+    { "subject":"Shape","artists":"Clinton Adams; Jesse Reichek; Enrique Montenegro; William Brice","printers":"Robert Bigelow","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Los Angeles County Museum of Art; Norton Simon Museum","visual_description":"Shapes; Tile; curves; arcs; semi-circle; repeating; outline; diamond","biographical_notes":"Tamarind Institute printer fellow February–September 1966","img": "/objects/10113.png","display_template": "image","title":"Erwin Erickson",
+        "id":"10113" },
+    { "subject":"Letter; Shape","artists":"Ruth Asawa; Frank Lobdell; Joseph Albers; Robert Cremean; Walasse Ting; William Turnbull; George Sugarman; Peter Phillips; George Earl Ortman; James Strombotne; Andre Bloc; Herbert Bayer; Leon Golub; Rufino Tamayo; Allen Jones; Rita Letendre; Gi˜ Pomodoro; Matsumi Kanemitsu; José Luis Cuevas; Richard Howard Hunt; Nicholas Krushenick; Gego; Ynez Johnston; Richard Hunt","publishers":"Tamarind Institute","institutions":"Museum of Fine Arts Boston; National Gallery of the Arts; Norton Simon Museum; Cleveland Museum of Art; Fine Arts Museum of San Francisco; Hammer Museum; Smithsonian American Art Museum; Museum of Modern Art; The British Museum","visual_description":"Crest; T; Typography; scalloped","biographical_notes":"Tamarind Institute printer fellow May 1965–December 1966, Tamarind Institute research fellow January 1967–April 1968","img": "/objects/10114.png","display_template": "image","title":"Robert &quot;Bob&quot; Evermon",
+        "id":"10114" },
+    { "subject":"Letter; Shape","artists":"Ruth Asawa; Matsumi Kanemitsu; June Wayne; Herbert Bayer; Clinton Adams","printers":"Walter Gabrielson; Garo Antreasian","publishers":"Tamarind Institute; Associated American Artists","institutions":"The British Museum; National Gallery of Art; Victoria and Albert Museum; Norton Simon Museum; Museum of Modern Art; Fine Arts Museum of San Francisco","visual_description":"Circle; initial; F; Typography","biographical_notes":"Tamarind Institute printer fellow April 1965–July 1966","img": "/objects/10115.png","display_template": "image","title":"Jurgen Fischer",
+        "id":"10115" },
+    { "subject":"Letter; Shape","artists":"Clinton Adams; Michael Mazur; Ed Ruscha; Ken Price; Carol Summers; Eleanore Mikus; Seymour Rosofsky; H.C. Westermann; Leon Polk Smith","printers":"Donald Kelley; Jean Milant; Kenjilo Nanao; Robert Rogers; Dan Socha; John Sommers","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Norton Simon Museum; Fine Arts Museum of San Francisco; Amon Carter Museum of American Art; Smithsonian American Art Museum","visual_description":"Shape; circle; initials; name; design; M; F","biographical_notes":"Tamarind Institute printer fellow September 1967–April 1969","img": "/objects/10116.png","display_template": "image","title":"Manuel Fuentes",
+        "id":"10116" },
+    { "subject":"Letter; Shape","artists":"Jean Charlot; Man Ray; Max Ernst; Emerson Woelffer; June Wayne; Clinton Adams; Harold Altman; Glen E. Alps; Joe Goode; Richard Diebenkorn; Josef Albers; Charles White; Wall Batterton; Karl Schrag; Misch Kohn; Ed Ruscha","printers":"Garo Antreasian; Joe Zirker","publishers":"Kanthos Press; Tamarind Institute; Joseph Graphics; Joseph Press","institutions":"National Gallery of Art; Detroit Institute of Arts; Norton Simon Museum; Hammer Museum; Richard Diebenkorn Foundation; Victoria and Albert Museum; fine arts museum of san francisco; Smithsonian American Art Museum","visual_description":"Circle; Initials; Name; J; F; Shape; Design","biographical_notes":"Tamarind Institute printer fellow July 1960–June 1961","img": "/objects/10117.png","display_template": "image","title":"Joe Funk",
+        "id":"10117" },
+    { "subject":"Letter","artists":"June Wayne; Ruth Asawa; Ynez Johnston; Herbert Bayer; JosŽ Luis Cuevas","printers":"Jurgen Fischer; Ernest de Soto","publishers":"Tamarind Institute","institutions":"Victoria and Albert Museum; Norton Simon Museum; Minneapolis Institute of Art; Hammer Museum; Fine Arts Museum of San Francisco; Amon Carter Museum of American Art","visual_description":"Initial; last name; G; Handwriting; calligraphy; dot","biographical_notes":"Tamarind Institute printer fellow October 1964–March 1966","img": "/objects/10118.png","display_template": "image","title":"Walter Gabrielson",
+        "id":"10118" },
+    { "subject":"Letter","artists":"Sam Francis; Anni Albers; Nathan Oliveira; Gego; Gabriel Kohn; Josef Albers; Peter Takal; Dick Wray; Henry C. Pearson","printers":"Kenneth Tyler","publishers":"Tamarind Institute","institutions":"Amon Carter Museum of American Art; Norton Simon Museum; National Gallery of Art","visual_description":"Initials; Overlap; R; G; Type","biographical_notes":"Tamarind Institute printer fellow June–September 1962 and August 1963–September 1964","img": "/objects/10119.png","display_template": "image","title":"Robert Gardner",
+        "id":"10119" },
+    { "subject":"Image","artists":"Willem De Kooning; Robert;Rauschenberg; Jasper Johns; John Cage; James Rosenquist; Gerrit Benner; Jacques Liptchitz; Lucebert; Theo Kijpers; Bret Whiteley; Tim Storrier; Lloyd Rees; John Olsen; Guan Wei; John Firth Smith; Lois Long; Josef Albers; William Crutchfield; William Gropper; Edwin Schlossberg; Helen Frankenthaler; Robert Motherwell; Lucebert; Theo Kujipers; Don Nice; Mark Tobey; Colin Lanceley; Brian Dunlop; Tim Storrier; John Olsen; Robert Jacks; Donald Friend","printers":"Kenneth Tyler; Zigmunds Priede; James Sheehy; Robert de la Rocha; James Webb; Charles Ritt; Octavio Pereira; Calvin Sumsion; Irwin Hollander; Donn Steward; Christopher Pullman","publishers":"Tamarind Institute; Gemini G.E.L.; Universal Limited Art Editions; Hollander Graphic Workshop; Castelli Graphics; Knoedler and Co.","institutions":"Minneapolis Institute of Art; National Gallery of Art; Detroit Institute of Arts; RISD Museum; Art Gallery of New South Wales; National Gallery of Australia; Metropolitan Museum of Art; Toledo Museum of Art; Limerick City Gallery of Art; The Art Institute of Chicago; Smithsonian American Art Museum; Archeus/Post-Modern; Canton Museum of Art","visual_description":"Animal; Bird; Chicken; Silhouette; Hen; Rooster; Farm","biographical_notes":"Tamarind Institute printer fellow December 1966–July 1967","img": "/objects/10120.png","display_template": "image","title":"Fred Genis",
+        "id":"10120" },
+    { "subject":"Letter; Shape","associated_techniques":"Intaglio","printers":"Jack Lemon; Steve Campbell","publishers":"Black Rock Editions; Tamarind Institute; Parasol Press; Petersburg Press; Multiples Inc","institutions":"Milwaukee Art Museum","visual_description":"L shape in square","img": "/objects/10007.jpg","display_template": "image","title":"Landfall Press",
+        "id":"10007" },
+    { "subject":"Image; Letter","artists":"Alexander Calder; Willem de Kooning; Red Grooms; Al Hirschfeld; Ellsworth Kelly; Romare Bearden; Fairfield Porter; Jasper Johns; Frank Stella; Alex Katz","printers":"Jacques Mourlot","publishers":"Mourlot Editions","visual_description":"object; letters; printmaking press; image; B; S; A","img": "/objects/10017.JPEG","display_template": "image","title":"Bank Street Atelier",
+        "id":"10017" },
+    { "subject":"Image","artists":"Ghada Amer; Reza Farkhondeh; Louise Bourgeois; R.M. Fischer; Kent Henricksen; Gilah Hirsch; Beryl Korot; Alan McCollum; Liliana Porter; Elaine Reichek; Kay Rosen; Lynda Benglis; Richard Bosman; Fran�oise Gilot; Grace Graupe- Pillard; Howard Hodgkin; Joyce Kozloff; Robert Kushner; Christian Marclay; Maya Lin; Whitfield Lovell; Michael Mazur; Betye Saar; Nancy Spero; Richard Tuttle; Andrea Zittel; Sonya Clark; Howardena Pindell; Elaine Reichek;","printers":"Judith Solodkin; Rodney Doyle","publishers":"Tamarind Institute","visual_description":"Hand with pointer finger pointing","img": "/objects/10018.jpeg","display_template": "image","title":"SOLO Impression",
+        "id":"10018" },
+    { "subject":"Image; Shape","artists":"Ed Ruscha; Hugh Townley; Rafael Canogar; John Hunter; Sam Francis","publishers":"Tamarind Institute","institutions":"Fine Arts Museum of San Francisco; Norton Simon Museum; Amon Carter Museum of American Art; Los Angeles County Museum of Art","visual_description":"Robot; rectangle; person; human","biographical_notes":"Tamarind Institute printer fellow September 1968–July 1969","img": "/objects/10121.png","display_template": "image","title":"Ronald Glassman",
+        "id":"10121" },
+    { "subject":"Letter","artists":"Glen E. Alps; Adja Yunkers; Clinton Adams; Sam Francis; Richard Diebenkorn; John McLaughlin; Misch Kohn; June Wayne; Reuben Kadish","printers":"Irwin Hollander","publishers":"Tamarind Institute","institutions":"Detroit Institute of Arts; National Gallery of Art; Hammer Museum; Richard Diebenkorn Foundation; Norton Simon Museum; Fine Arts Museum of San Francisco; Art Institute Chicago","visual_description":"Initials; circle; H; B; letters; alphabet; capital","biographical_notes":"Tamarind Institute printer fellow November 1960–July 1961, Tamarind Institute technical director July 1961–June 1963","img": "/objects/10122.png","display_template": "image","title":"Bohuslav Horak",
+        "id":"10122" },
+    { "subject":"Letter","artists":"Roy Lichtenstein; Chuck Close; Jenny Holzer; Alex Katz; Jennifer Bartlett; Kaws; Mickalene Thomas","printers":"Robert Blanton","institutions":"Metropolitan Museum of Art; NY; the Museum of Modern Art; NY; the Whitney Museum of American Art; NY; the Philadelphia Museum of Art; PA; the San Francisco Museum of Modern Art; the Walker Art Center; Minnesota; the Tate Gallery; London","visual_description":"letter; X","img": "/objects/10009.png","display_template": "image","title":"Brand X Editions",
+        "id":"10009" },
+    { "subject":"Letter; Shape","artists":"Michael Mazur; Ed Moses; Billy Al Bengston; Eleanor Mikus","publishers":"Tamarind Institute","institutions":"Norton Simon Museum; National Gallery of Art","visual_description":"horizontal; initials; H; E; name; initial; circle","biographical_notes":"Tamarind Institute printer fellow September–December 1967 and March–August 1968","img": "/objects/10123.png","display_template": "image","title":"Edward Hughes",
+        "id":"10123" },
+    { "subject":"Letter","artists":"Charles F Ramus; Richard Diebenkorn; Frederick Sommer; William Brice; Misch Kohn; Harold Altman; Prentiss H. Taylor; Emerson Woelffer; Joyce Wahl Treiman; Richards Ruman","printers":"William Traher","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Smithsonian American Art Museum; Los Angeles County Museum of Art","visual_description":"Handwriting; Initial; initials; Name; letter; H; K; E","biographical_notes":"Tamarind Institute printer fellow August 1961–February 1962","img": "/objects/10124.png","display_template": "image","title":"Harold Emerson Keeler",
+        "id":"10124" },
+    { "subject":"Image","artists":"Seymour Rosofsky; James Boynton; Ed Ruscha; Leon Polk Smith; H.C. Westermann; Clinton Adams; Ken Price; Hedda Sterne","printers":"Manuel Fuentes; Jean Milant; Kenjilo Nanao; Robert Rogers; Dan Socha; John Sommers; Louise Nevelson","publishers":"Tamarind Institute","institutions":"Amon Carter Museum of American Art; Smithsonian American Art Museum; National Gallery of Art; RISD Museum; Norton Simon Museum","visual_description":"clover; plant; nature; four; heart","biographical_notes":"Tamarind Institute printer fellow September 1966–January 1968 and September 1968–June 1969","img": "/objects/10125.png","display_template": "image","title":"Donald Kelley",
+        "id":"10125" },
+    { "subject":"Letter; Shape","artists":"Martyl; Gerald Johnson","publishers":"Tamarind Institute","institutions":"Smithsonian American Art Museum; Hammer Museum","visual_description":"circle; initials; design; name; K; D; dot","biographical_notes":"Tamarind Institute printer fellow January 1973–June 1974","img": "/objects/10126.png","display_template": "image","title":"Douglas Kendrick",
+        "id":"10126" },
+    { "subject":"Image","artists":"Paul Sarkisian","printers":"Chris Cordes; John Maggio; John Butke; Lloyd Baggs; Robert Arber; Wayne Kimball; Wayne Simpkins","publishers":"Tamarind Institute","visual_description":"Symbool; halo; prism; imagery; wings; stripes; star","biographical_notes":"Tamarind Institute printer fellow September 1971–March 1972","img": "/objects/10127.png","display_template": "image","title":"Don Kinner",
+        "id":"10127" },
+    { "subject":"Letter","artists":"Andy Warhol; Roy Lichtenstein; Paul Jenkins; Jules Olitski; Rufino Tamayo","publishers":"Chiron Press; Waddington Graphics; Tamarind Institute","institutions":"Norton Simon Museum; RISD Museum; National Gallery of Victoria","visual_description":"lines; K; Name; Initials","biographical_notes":"Tamarind Institute printer fellow October–December 1964","img": "/objects/10128.png","display_template": "image","title":"Michael Knigin",
+        "id":"10128" },
+    { "subject":"Shape","artists":"Louise Nevelson; Hedda Sterne; Ernst Van Leyden; Peter Saul","publishers":"Tamarind Institute; Collector’s Press","institutions":"National Gallery of Art; Norton Simon Museum; Amon Carter Museum of American Art","visual_description":"Triangle; lamp; boat; vessel;","biographical_notes":"Tamarind Institute printer fellow September–December 1966 and September 1968–June 1969","img": "/objects/10129.png","display_template": "image","title":"Anthony Ko",
+        "id":"10129" },
+    { "subject":"Letter","artists":"James Kelly; Nathan Oliveira; Sam Francis; Peter Takal; David Hockney; June Wayne; John Grillo; Gabriel Kohn; JunÕichiro Sekino; Dick Wray; Josef Albers; Hugo Weber; Anni Albers; Robert Morris; John McLaughlin; Theo Wujcikat; Gordon Newton; Agnes Denes","printers":"Kenneth Tyler; Walter S. Hamady","publishers":"Tamarind Institute; Friends of the Modern Art Acquisition Fund; The Friends of the Modern Art of The Detroit Institute of Arts; Gloria Cortella Graphics","institutions":"Amon Carter Museum of American Art; National Gallery of Art; Detroit Institute Arts Museum; Minneapolis Institute of Art Collection; Norton Simon Museum; Victoria & Albert Museum; Art Institute Chicago; Museum of Modern Art","visual_description":"Initials; initial; A; K; font; typography","biographical_notes":"Tamarind Institute printer fellow February 1963–July 1964","img": "/objects/10130.png","display_template": "image","title":"Aris Koutroulis",
+        "id":"10130" },
+    { "subject":"Letter","artists":"Gerald Johnson; Edna Andrade","publishers":"Tamarind Institute","institutions":"Hammer Museum","visual_description":"X; cross; type; splatter; stain; blood;","biographical_notes":"Tamarind Institute printer fellow September 1970–October 1971","img": "/objects/10131.png","display_template": "image","title":"Ron Kraver",
+        "id":"10131" },
+    { "subject":"Shape","artists":"Don Nice; Alan Davie; Ed Moses; Masuo Ikeda; Jesse Reichek; John Hoyland","publishers":"Tamarind Institute; Parasol Press; Paragon Press; Charles Booth-Clibborn; Bernard Jacobson","institutions":"Minneapolis Institute of Art; RISD Museum; Norton Simon Museum; Royal Academy of Arts; Museum of Modern Art","visual_description":"Circle; Circles; geometric; line; ring; mountain; peace","biographical_notes":"Tamarind Institute printer fellow July–September 1966","img": "/objects/10132.png","display_template": "image","title":"Ian Lawson",
+        "id":"10132" },
+    { "subject":"Image","artists":"Fredrick Hammerseley; Pat Steir","printers":"Richard Callner","publishers":"Tamarind Institute; Mantegna Press II","institutions":"New Mexico Museum of Art","visual_description":"Silhouette; Asian; Chinese; animal; dragon","biographical_notes":"Tamarind Institute printer fellow January–October 1973","img": "/objects/10133.png","display_template": "image","title":"Chen Lok Lee",
+        "id":"10133" },
+    { "subject":"Letter","artists":"Sam Francis; Peter Takal; Louise Nevelson; Philip Guston; June Wayne; G. Ray Kerciu; Sonia Getchoff; Gabriel Kohn; John McLaughlin","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Amon Carter Museum of American Art; Baltimore Art Museum","visual_description":"hollow; cursive; type; initial; J","biographical_notes":"Tamarind Institute printer fellow January–December 1963","img": "/objects/10134.png","display_template": "image","title":"Jason Leese",
+        "id":"10134" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Christo; Philip Pearlstein; Sol LeWitt; Judy Chicago; Roger Brown; Jeannette Pasin Sloan; Vito Acconci William T. Wiley; Robert Cottingham; Emmi Whitehorse; Joe Feddersen; Hock E Aye Vi Edgar Heap of Birds; Gerald Peter Jemison; Truman Lowe; Mario Martinez; Duane Slick; Jaune Quick-to-See Smith; Kay WalkingStick; Melanie Andrew Yazzie; Jesse Reichek; Peregrine Honig; H. C. Westermann; Chuck Close","printers":"June Wayne; Kenneth Tyle; Michael Berdan; Brian Lynch; Heidijo Lemon; Barbara Spies; Ed Paschke; Sarah Pavlus; Steve Campbell; Nancy Featherstone; Marion Karl; David Keister; Fred Gude","publishers":"Landfall Press; Tamarind Institute","institutions":"National Gallery of Art; Spencer Museum of Art; Minneapolis Institute of Art; RISD Museum; The Art Institute of Chicago; Smithsonian American Art Museum; The Ross Art Collection-University of Michigan; Modern Art Museum of Fort Worth; Brooklyn Museum; Marianna Kistler Beach Museum of Art; Hood Museum of Art-Dartmouth; Smith College Museum of Art; Norton Simon Museum","visual_description":"initials; initial; combined; handwriting; J; H; L","biographical_notes":"Tamarind Institute printer fellow April–September 1966","img": "/objects/10135.png","display_template": "image","title":"Jack Lemon",
+        "id":"10135" },
+    { "subject":"Shape","artists":"Frank Stella; Jasper Johns; Wayne Thiebaud; William Crutchfield; Irene Siegel; Alfred Young; Richard Diebenkorn","printers":"James Webb; Charles Ritt; Kenneth Tyler; Dan Gualdoni; Octavio Pereira","publishers":"Gemini G.E.L.; Tamarind Institute; Original Press","institutions":"National Gallery of Art; Smithsonian American Art Museum; Museum of Modern Art; Fine Arts Museum of San Francisco; Norton Simon Museum of Art; Baltimore Museum of Art; Christchurch Art Gallery","visual_description":"Shape; Circle; spikes; four","biographical_notes":"Tamarind Institute printer fellow July–December 1967","img": "/objects/10136.png","display_template": "image","title":"Bruce Lowney",
+        "id":"10136" },
+    { "subject":"Image","artists":"Ulfert Wilke; Alvin Doyle Moore; George McNeil; Andrew Dasburg; Kenneth Price","printers":"Toby Michel; John Sommers","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Hammer Museum","visual_description":"Plant; flower; vegetable; nature; artichoke","biographical_notes":"Tamarind Institute printer fellow January 1976–December 1977","img": "/objects/10137.png","display_template": "image","title":"William Masi",
+        "id":"10137" },
+    { "subject":"Letter","artists":"Willem De Kooning; Misch Kohn","printers":"Nathan Oliveira","publishers":"Tamarind Institute","institutions":"Fine Arts Museum of San Francisco; Yale University Art Gallery; Smithsonian American Art Museum","visual_description":"Handwriting; initials; G; M; Letters","biographical_notes":"Tamarind Institute printer fellow August–September 1961","img": "/objects/10138.png","display_template": "image","title":"George Miyasaki",
+        "id":"10138" },
+    { "subject":"Image","associated_techniques":"Intaglio","printers":"John Sommers","publishers":"Tamarind Institute","institutions":"Whitney Museum of American Art; the Museum of Modern Art Library; the New York Public Library; New York; the Corcoran Gallery of Art; the Library of Congress; Washington; D.C and the Victoria & Albert Museum; London","visual_description":"feather leaning diagonally","biographical_notes":"Tamarind Institute master printer, Tamarind Institute master printer 1983–1987, Tamarind Institute staff printer 1982–1983, Tamarind Institute senior printer fellow June 1981–May 1982, Tamarind Institute printer training participant August 1980–May 1981","img": "/objects/10139.png","display_template": "multiple","title":"Lynne Allen",
+        "id":"10139" },
+    { "subject":"Image","associated_techniques":"Intaglio","publishers":"Tamarind Institute; Vermont Studio Center Press","institutions":"The Hood Museum; Dartmouth College V.R.C; Flemmington; La Trobe University Museum; Time Warner; Permanent Collection Alliance Capitol; The Katonah Museum; Dartmouth - Hitchcock; Permanent Collection; The Robert Hull Fleming Museum","visual_description":"figure; legs; dancer","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1991, Tamarind Institute printer training participant August–December 1990","img": "/objects/10140.png","display_template": "image","title":"Sarah Amos",
+        "id":"10140" },
+    { "subject":"Letter","artists":"Will Barnet; Louise Nevelson; Leonard Edmondson","printers":"Ken Tyler; June Wayne; Clinton Adams","publishers":"Tamarind Litho Workshop in LA; Tamarind Institute","institutions":"Metropolitan Museum of Art; the Museum of Modern Art; Whitney Museum of American Ar; Philadelphia Museum of Art; San Francisco Museum of Modern Art; Walker Art Center; the Tate Gallery","visual_description":"Initials G;A; cursive","biographical_notes":"Tamarind Institute master printer, Tamarind Institute technical director 1970–1972, Tamarind Institute technical consultant 1961–1970, Tamarind Institute technical director July 1960–June 1961","img": "/objects/10141.png","display_template": "image","title":"Garo Antreasian",
+        "id":"10141" },
+    { "subject":"Letter","artists":"Emerson Woelffer; Adolf Dehn","printers":"Buhoslav Horak; Garo Antreasian","publishers":"Tamarind Institute","institutions":"Hammer Museum; Museum of Modern Art; Portland Art Museum; Wellin Museum of Art- Hamilton College","visual_description":"cursive; M","biographical_notes":"Tamarind Institute printer fellow August–September 1961","img": "/objects/10142.png","display_template": "image","title":"John Muench",
+        "id":"10142" },
+    { "subject":"Shape","artists":"Clinton Adams; Kenneth Price; Ed Ruscha; Leon Polk Smith; Mel Ramos","printers":"Manuel Fuentes; Donald Kelley; Jean Milant; Robert Rogers; Dan Socha; John Sommers","publishers":"Tamarind Institute; Crown Point Press","institutions":"National Gallery of Art; Norton Simon Museum; Amon Carter Museum of American Art; Brooklyn Museum; Fine Arts Museum of San Francisco; RISD Museum","visual_description":"Shape; Circle; Line; Squiggle; Curve","biographical_notes":"Tamarind Institute printer fellow October 1968–January 1969","img": "/objects/10143.png","display_template": "image","title":"Kenjilo Nanao",
+        "id":"10143" },
+    { "subject":"Image","artists":"Ed Ruscha; Elaine de Kooning; R.C. Gorman; Richard Diebenkorn","printers":"Yoko Saito; Chris Fox; Nathan Oliveira","publishers":"Cirrus Editions; Houston Fine Art Press; Tamarind Institute; Crown Point Press","institutions":"Hammer Museum; Adobe Gallery","visual_description":"Abstract; Branch; mountain; silhouette","biographical_notes":"Tamarind Institute printer fellow July 1972–March 1974","img": "/objects/10144.png","display_template": "image","title":"Richard Newlin",
+        "id":"10144" },
+    { "subject":"Letter","artists":"Anni Albers; Paul Brach; Nathan Oliveira; John Grillo; Artemio Sepulveda; Dick Wray","printers":"Irwin Hollander","publishers":"Tamarind Institute","institutions":"University at Albany Fine Art Collections; National Gallery of Art; The Indianapolis Museum of Art Collection; Norton Simon Museum; Smithsonian American Art Museum","visual_description":"O; Letter; Irish;","biographical_notes":"Tamarind Institute printer fellow February–August 1964","img": "/objects/10145.png","display_template": "image","title":"Thom O’Connor",
+        "id":"10145" },
+    { "subject":"Shape","artists":"Gordon Nunes","publishers":"Milestone Graphics; Tamarind Institute","institutions":"Hammer Museum","visual_description":"Silhouette; knife; utensil; feather","biographical_notes":"Tamarind Institute printer fellow October 1973–January 1975","img": "/objects/10146.png","display_template": "image","title":"James Reed",
+        "id":"10146" },
+    { "subject":"Letter","artists":"Esteban Vincente; John McLaughlin","printers":"Jim Dine","publishers":"Tamarind Institute","institutions":"Indianapolis Museum of Art; Amon Carter Museum of American Art","visual_description":"Initials; initial; D; R","biographical_notes":"Tamarind Institute printer fellow September–November 1962","img": "/objects/10147.png","display_template": "image","title":"Donald Roberts",
+        "id":"10147" },
+    { "subject":"Letter","artists":"Jesse Reichek; Ruth Asawa; Leon Golub","publishers":"Tamarind Institute","institutions":"orton Simon Museum; Fine Arts Museum of San Francisco","visual_description":"Initials; J; R","biographical_notes":"Tamarind Institute printer fellow November 1962–March 1963 and August–November 1965","img": "/objects/10148.png","display_template": "image","title":"John Rock",
+        "id":"10148" },
+    { "subject":"Letter","artists":"John Baldessari; Kenneth Price; Clinton Adams; Micheal Mazur; Eleanore Mikus; Ed Ruscha; James Strombotne; Karl Kasten; Ed Moses; Seymour Rosofsky; Leon Polk Smith; H.C. Westermann","printers":"Maneul Fuentes; Donald Kelley; Jean Milant; Kenjilo Nanao; Dan Socha; John Sommers","publishers":"Nova Scotia College of Art and Design; Tamarind Institute","institutions":"National Gallery of Art; Norton Simon Museum; Amon Carter Museum of American Art; Hammer Museum","visual_description":"Initials; Symmetric; R; Circle","biographical_notes":"Tamarind Institute printer fellow January 1968–April 1969","img": "/objects/10149.png","display_template": "image","title":"Robert Rogers",
+        "id":"10149" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Pat Steir; Bryan Hunt; Christian Boltanski; Sol LeWitt; John Baldessari","printers":"Daria Sywulak; Renee Bott; Lawrence J. Hamlin; Paul Mullowney; Pamela Paulson; Brian Shure","publishers":"Crown Point Press","institutions":"National Gallery of Art; Fine Arts Museum of San Francisco; Brooklyn Museum","visual_description":"Signature; O; handwriting; scribble","img": "/objects/10150.png","display_template": "image","title":"Lothar Osterburg",
+        "id":"10150" },
+    { "subject":"Shape","artists":"David Rabinowitch; Charles R. Rushton; Donald Judd; Bruce Nauman","publishers":"Tamarind Institute; Arber and Son Editions","institutions":"National Gallery of Art; Albuquerque Museum","visual_description":"symmetry; lines; curves;","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1971–March 1973","img": "/objects/10151.png","display_template": "image","title":"Robert Arber",
+        "id":"10151" },
+    { "subject":"Image","artists":"Squawk Carnwath; Faith Ringgold","printers":"Randy Hemminghaus; Alexa Burns; Kristin Cavanaught","publishers":"Tamarind Institute","institutions":"Fine Arts Museums of San Francisco; Philadelphia Museum of Art","visual_description":"Bomb; graphic; half circle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1998–May 2000, Tamarind Institute printer training participant August 1998–May 1999","img": "/objects/10152.png","display_template": "image","title":"Christopher Armijo",
+        "id":"10152" },
+    { "subject":"Letter","artists":"Joyce Kozloff; Garo Z. Antreasian; David Hare; Paul Sarkisian; Frederick Hammersley; James Butler; Ulfert Wilke; Leonard Lehrer; Cheryl Bowers; Pierre Clerk; George Bunker; Celso Rojas","printers":"Jacky Tsila","publishers":"The Artists’ Press; Tamarind Institute","visual_description":"Initial M; Initial A; graphic","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1990, Tamarind Institute printer training participant August–December 1989","img": "/objects/10153.png","display_template": "image","title":"Mark Attwood",
+        "id":"10153" },
+    { "artists":"Andrew Dasburg; Robert B. Montoya (Soe Khuwa Pin); Sandia Pueblo/ Ohkay Owingeh (San Juan Pueblo)","printers":"John Sommors; Fritz Scholder","publishers":"Tamarind Institute","institutions":"Albuquerque Museum; National Museum of American Indian","visual_description":"graphic; ring; curved; lines;","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow January 1976-June 1977","img": "/objects/10154.png","display_template": "image","title":"Joy Purmal Baker",
+        "id":"10154" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Fritz Scholder; Richard Haas; Martyl; R.C Gorman; Nicholas Krushenick; Frederick Hammersley; Martyl","printers":"Robert Blanchard; Marlys Dietrick","publishers":"Tamarind Institute","institutions":"Smithsonian Art Museum; The Cleveland Museum of Art; National Gallery of Art","lithography_specific":"Color Lithography (Chromolithograph)","visual_description":"graphic; double lines; curved shape; animal; walrus","biographical_notes":"Tamarind Institute master printer, Tamarind Institute master printer 1975–1977, Tamarind Institute printer fellow January 1973–December 1974","img": "/objects/10155.jpg","display_template": "multiple","title":"Lynn Baker",
+        "id":"10155" },
+    { "subject":"Image; Shape","artists":"Clinton Adams; Beth Campbell; Tony Fitzpatrick; Betty Hahn; Roberto Juarez; Sandra Ramos; Doug Sanderson","publishers":"K2 Art Studio; Tamarind Institute; Ping Pong Press","institutions":"rchives of the Western Reserve; Columbia College; Southern Graphics Council; Tamarind Institute of Lithography; Institute Chileno Norteamericano; The Fine Arts School in Bangalore; India; The BF Goodrich Corporation; The Cleveland Museum of Art; The Progressive Art Collection","visual_description":"bear; abstracted; morphed","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1997–May 1998, Tamarind Institute printer training participant August 1996–May 1997","img": "/objects/10156.png","display_template": "image","title":"Karen Beckwith",
+        "id":"10156" },
+    { "subject":"Shape","artists":"Ted Braggins; Margie Hughto; Frank Howell; Emmi Whitehorse; Nanette Carter; Ellen Lanyon; Jutta Strienz; Mark Frank; Don Osborn; Shingo Franics; Dan Ziembo; Phyllis Bramson; Margie Allegretti; Vincent Arcilesi; Laura Battle; Diane Bywaters; John Hejduk; Michael Kessler","printers":"Ted Braggins","publishers":"Tamarind Institute; Pondside Press Graphics Workshop & Gallery; Southwest Graphics; Master Editions","institutions":"The Block Museum of Art","visual_description":"cubes; stacked; illusion","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow May 1981–May 1982, Tamarind Institute printer training participant August 1980–May 1981","img": "/objects/10157.png","display_template": "image","title":"Melissa Katzman Braggins",
+        "id":"10157" },
+    { "subject":"Image","printers":"Ben Q. Adams; Frances Thiel; John Sommers; Ed Hamilton; Harry Westlund; Lynn Baker","publishers":"Tamarind Institute","institutions":"Archives of American Art; Brooklyn Museum; San Jose Museum; Phoenix Art Museum; Stanford University; University of Iowa Museum; University of New Mexico; Hammer Museum Gruenwald Collection; The Tamarind Collection","visual_description":"animal; face;","biographical_notes":"Tamarind Institute master printer, Tamarind Institute staff printer 1976–1977, Tamarind Institute printer fellow August 1974–June 1976","img": "/objects/10158.png","display_template": "image","title":"Glenn Brill",
+        "id":"10158" },
+    { "subject":"Letter","artists":"Fritz Scholder; David Bradley; Paul Pletka; John Fincher; Richard Tuttle; Susan Rothenburg; Luis Jimenez; Rudy Fernandez; Andrew Dasburg Luis Tapia; Tom Palmore; James Havard; Harry Fonseca; Carmen Lomas Garza; Charles R. Rushton","printers":"Ben Q. Adams; Frances Thiel; John Sommers; Glenn Brill; Ed Hamilton; Harry Westlund; Lynn Baker","publishers":"Britko Arts; Tamarind Institute; Naravisa Press; Normal Editions","institutions":"New Mexico Museum of Art; National Gallery of Art; Albuquerque Museum","visual_description":"Russian Letter B; colon","biographical_notes":"Tamarind Institute master printer, Tamarind Institute master printer / studio manager 1977–1980, Tamarind Institute staff printer 1976, Tamarind Institute printer fellow November 1973–April 1975","img": "/objects/10159.png","display_template": "image","title":"Stephen (Steve) Britko",
+        "id":"10159" },
+    { "subject":"Shape","artists":"Garo Z. Antreasian; Fritz Scholder; Pat Steir; John Yau; Liset Castillo; Joan Brown","printers":"Lynne D. Allen; Jill Lerner; Robert Hanning; Hank Hine; Tom Pruitt; Yoon Mi Nam; Erika Greenburg-Schneider; Brian Mullen; Chris Ballantyne; Jennifer Meiko; Deli Sacilotto","publishers":"Graphicstudio; Tamarind Institute;","institutions":"New Mexico Museum of Art; National Gallery of Art","visual_description":"house; square; triangle","biographical_notes":"Tamarind Institute master printer, Tamarind Institute staff printer June 1984–March 1985, Tamarind Institute senior printer fellow May 1983–May 1984, Tamarind Institute printer training participant August 1982–May 1983","img": "/objects/10160.png","display_template": "image","title":"Marcia Brown",
+        "id":"10160" },
+    { "subject":"Shape","artists":"Xqaiqa Qomatcaa; Squeak Carnwath; Tony Evanko; Richard Serra; Susan Davidoff","printers":"Bill Lagattuta; Luther Davis; Clemens Buentig; Sarah Dudley; Lee; Jong Won","publishers":"Tamarind Institute; Noblet Serigraphie","institutions":"The Davis Museum at Wellesley College; National Gallery of Art","visual_description":"circle(s); lines; symbol; geometric","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1999–May 2000, Tamarind Institute printer training participant August 1998–May 1999","img": "/objects/10161.png","display_template": "image","title":"Alexa Burns",
+        "id":"10161" },
+    { "subject":"Shape","associated_techniques":"Intaglio","artists":"Fawn Atencio; Juane Quick to See Smith","publishers":"Anderson Ranch Arts Center; Tamarind Institute","institutions":"Hilliard Art Museum; Kochi International Triennial Exhibition of Prints Ino-cho Paper Museum. Amity Art Foundation; The Print Study Collection of the University of Alberta; Artist Printmaker/Photographer Research Collection (AP/RC) Ð Repository of artists from the West Texas Tech University","visual_description":"swirl; line; symbol","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1997–May 1998, Tamarind Institute printer training participant August 1996–May 1997","img": "/objects/10162.png","display_template": "image","title":"Catherine Chauvin",
+        "id":"10162" },
+    { "subject":"Image","artists":"Jan Stussy; Otto Piene; Paul Harris; Masuo Ikeda; Sam Francis; Gregory Masurovsky; Emerson Woelffer; Matsumi Kanemitsu; John Levee; Salvador Bru; Arthur Secunda; Burhan Doğançay; William Pettet; Ynez Johnston; Richard Diebenkorn","printers":"Ron Olds; Timothy Huchthausen; Timothy Isham; Ron Adams; Daniel Freeman","publishers":"Tamarind Institute; Gemini G.E.L","institutions":"Amon Carter Museum of American Art; National Gallery of Art; Modern Museum of Art","visual_description":"hand; line","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow February 1969–March 1970","img": "/objects/10163.png","display_template": "image","title":"Paul Clinton",
+        "id":"10163" },
+    { "subject":"Image","artists":"Joyce Kozloff; Garo Z. Antreasian; David Hare; Paul Sarkisian; James Butler; Ulfert Wilke; Leonard Lehrer; Cheryl Bowers; Pierre Clerk; Walter Askin; Celso Rojas; Janet Lippincott; R. C. Gorman; Paul Sarkisian; Jacqueline Gourevitch; Jurgen Strunck; Albert Christ-Janer; Samia Halaby; Gerald C. Johnson; David Smyth; Frederick Hammersley; Forrest Moses; Judy Chicago; Robert Ellis; Arthur Secunda; Harry Nadler; May Stevens","printers":"Don Kinner; John Maggio; John Butke; Lloyd Baggs; Karen Beckwith; Amy Goodman","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Modern and Contemporary Art Collection","visual_description":"pawprint; paw; circle; splatters; line","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow June 1971–August 1973","img": "/objects/10164.png","display_template": "multiple","title":"Christopher Cordes",
+        "id":"10164" },
+    { "subject":"Shape","artists":"Robert Kushner; Joseph Almyda; Billy Al Bengston","publishers":"Tamarind Institute","visual_description":"Ribs; bone; circle; symmetry","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow January–December 1987, Tamarind Institute printer training participant September–December 1986","img": "/objects/10165.png","display_template": "image","title":"Craig Cornwall",
+        "id":"10165" },
+    { "subject":"Image","artists":"Reg Loving; Garo Antreasian","publishers":"Tamarind Institute","institutions":"Queensland Art Gallery; Darwin Museums and Art Galleries board- permanent collections; Australian Embassy art Collection; Vietnam; Central Academy of Fine Arts art collection; Griffith University art collection; Brisbane Civic Art Gallery and Museum collection; Blanton Museum of Art; New Mexico Museum of Art","visual_description":"horse; person; sword","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow August 1984–August 1985, Tamarind Institute printer training participant June–July 1984","img": "/objects/10166.png","display_template": "image","title":"Russell James Craig",
+        "id":"10166" },
+    { "subject":"Shape","artists":"Mary Lloyd Jones; Ian Phillips; Shani Rhys James; Richard Noyce; Maria Hayes; Pete Williams; Eleri Mills; David Tress; Marcelle Hanselaar; Wuon Gean Ho; Jin Baoping","publishers":"Tamarind Institute","visual_description":"square; line(s); swirl","biographical_notes":"Tamarind Institute master printer, Tamarind Institute senior printer fellow June 1995–May 1996, Tamarind Institute printer training participant August 1994–May 1995","img": "/objects/10167.png","display_template": "image","title":"Paul Croft",
+        "id":"10167" },
+    { "subject":"Letter","artists":"Jose Clemente Orozco; David Folkman; Edmundo Aquino; Alejandro Colunga; Jerry Concha; Jose Fors; David Gallegos; Bryon Galvez; Rupert Garcia; Luis Granda; Luis Jiminez; Gustavo Rivera; Francisco Zuniga; George Sugarman; George Earl Ortman; Robert Hansen; Matsumi Kanemitsu; Leon Golub; Herbert Bayer; Gego; Allen Jones; Ruth Asawa; Rufino Tamayo; Gunther Gerzso; Francisco Toledo; Leonara Carrington","printers":"José Luis Cuevas","publishers":"Tamarind Institute; de Soto Workshop; Edition's Press; Collector’s Press Lithography Workshop","institutions":"Amon Carter Museum of American Art","visual_description":"initials E; D; S; curved","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow March 1965–December 1966","img": "/objects/10168.png","display_template": "image","title":"Ernest de Soto",
+        "id":"10168" },
+    { "subject":"Image","artists":"Elaine de Kooning; Andrew Dasburg; Clinton Adams; Emerson Woelffer","printers":"John Sommers; Glenn Brill","publishers":"Tamarind Institute","institutions":"Albuquerque Museum","visual_description":"Palm Tree","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow January 1976–August 1977","img": "/objects/10169.png","display_template": "image","title":"Marlys Dietrick",
+        "id":"10169" },
+    { "subject":"Letter","artists":"Adja Yunkers; Maurice L. Sanchez; Eleanore Mikus; Lousie Nevelson; Hedda Sterne; Lucas Johnson; Norman Zammitt; Charles Schorre; John Alexander; Philip Renteria; Bob Camblin;","printers":"Maurice Sanchez; Clifford Smith","publishers":"Tamarind Institute; Collector’s Press","institutions":"Amon Carter Museum of American Art; Blanton Museum of Art; Norton Simon Museum; The Museum of Fine Arts; Houston; Art Institute Chicago","visual_description":"Initials D; F; cursive","biographical_notes":"Tamarind Institute master printer, Tamarind Institute printer fellow February 1967–July 1968","img": "/objects/10170.png","display_template": "image","title":"David Folkman",
+        "id":"10170" },
+    { "subject":"Letter","artists":"Ruth Asawa; Frank Lobdell; Joseph Albers; Robert Cremean; Walasse Ting; William Turnbull; George Sugarman; Peter Phillips; George Earl Ortman; James Strombotne; Andre Bloc; Herbert Bayer; Leon Golub; Rufino Tamayo; Allen Jones; Rita Letendre; Gi˜ Pomodoro; Matsumi Kanemitsu; Jose Luis Cuevas; Richard Howard Hunt; Nicholas Krushenick; Gego; Ynez Johnston; Richard Hunt","printers":"Ernest de Soto","publishers":"Tamarind Institute","institutions":"Museum of Fine Arts Houston; New Mexico Museum of Art","lithography_specific":"Stone Lithography; Color Lithography (Chromolithograph)","visual_description":"Uppercase C and lowercase p","img": "/objects/10008.jpg","display_template": "image","title":"Collector&#39;s Press",
+        "id":"10008" },
+    { "subject":"Letter; Shape","associated_techniques":"Intaglio; Lithography; Relief","artists":"Wilhelm Lehmbruck; Ludwig Meiner; Erich Heckel; Lyonel Feininger; Franz Marc","publishers":"Verlag Gustav Kiepenheuer","institutions":"Museum of Modern Art","intaglio_specific":"Etching","relief_specific":"Woodcut","lithography_specific":"Stone Lithography","visual_description":"hexagon; V; D","img": "/objects/10171.jpg","display_template": "image","title":"Verlag der Dichtung",
+        "id":"10171" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Roger Shimomura; James Lavadour; Miriam Schapiro; Pepon Osorio; Keita Souleymane; Sue Williamson","publishers":"Tamarind Institute; Brodsky Center For Innovative Editions","institutions":"Universiti Sains Malaysia; Museum of Fine Art; Moussem Assilah; The Yinchuan Art Museum; Silpakorn University; Thailand: The Museum of Fine Arts; The Huntington Museum; The Jersey City; Hunterdon Museums; Spencer Museum of Art; Pennsylvania Academy of the Fine Arts","visual_description":"eye; oval; square","img": "/objects/10172.png","display_template": "image","title":"Eileen Foti",
+        "id":"10172" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography","artists":"Penni Anne Cross","publishers":"Tamarind Institute; Koda Lithographic","visual_description":"cursive; circle; dot","img": "/objects/10173.png","display_template": "image","title":"Todd Frye",
+        "id":"10173" },
+    { "subject":"Image","associated_techniques":"Lithography","publishers":"Tamarind Institute","visual_description":"arch; line; curve","biographical_notes":"Apprentice, Arizona State University (unknown date), Tamarind Institute senior print fellow May–June 1983","img": "/objects/10174.png","display_template": "image","title":"Randy Gibbs",
+        "id":"10174" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Joy Laville; Akira Kurosaki; Valerie Arber","publishers":"Tamarind Institute","visual_description":"loops; circles; rectangle","biographical_notes":"Tamarind Institute printer training participant August 1995–May 1996, Tamarind Institute senior printer fellow June 1996–May 1997","img": "/objects/10175.png","display_template": "image","title":"Amy Goodman",
+        "id":"10175" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Ed Ruscha; Clinton Adams; Maria Baca; David Row; Frederick Hammersley; Squeak Carnwath; Peter Manchester; Edward Henderson","printers":"Sarah Amos","publishers":"Tamarind Institute","institutions":"National Gallery of Art; Fine Arts Museum of San Francisco ; UNM Art Museum","lithography_specific":"Stone Lithography; Color Lithography / Chromolithograph","visual_description":"swirl; triangle; circle; abstract","biographical_notes":"Tamarind Institute printer training participant August–December 1990, Tamarind Institute senior printer fellow January– December 1991","img": "/objects/10176.png","display_template": "image","title":"Erica Guttenschwager",
+        "id":"10176" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Margo Humphrey","publishers":"Tamarind Institute","visual_description":"target; cross; lines; circle","biographical_notes":"Tamarind Institute printer training participant June–July 1984 , Tamarind Institute senior printer fellow August 1984–August 1985","img": "/objects/10177.png","display_template": "image","title":"Brian Haberman",
+        "id":"10177" },
+    { "subject":"Shape","associated_techniques":"Intaglio","artists":"Steven Sorman","publishers":"Tamarind Institute","intaglio_specific":"Etching","visual_description":"circle; triangle","biographical_notes":"Tamarind Institute printer training participant August 1980–May 1981, Tamarind Institute senior printer fellow May 1981–May 1982","img": "/objects/10178.png","display_template": "image","title":"William Haberman",
+        "id":"10178" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Andrew Dasburg; Gussie Du Jardin; Ulfert Wilke; James McGarrell","printers":"John Sommers","publishers":"Tamarind Institute","institutions":"Albuquerque Museum","other_techniques":"Monotype","visual_description":"Frog; animal","biographical_notes":"Tamarind Institute printer fellow August 1976–May 1978","img": "/objects/10179.png","display_template": "image","title":"Russell Hamilton",
+        "id":"10179" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography","artists":"Frank Ettenburg; Charles Mattox; Tiago Gualberto; Jim Dine; Billy Al Bengston; David Hare; Joe Almyda; Rita Deanin Abbey; Dimitri Spiridonovich; Joy Laville; Dan Fuller; Margo Humphrey; Zlatan Filipovic","printers":"Bill Lagattuta; Craig Cornwall; Lynn Allen","publishers":"Tamarind Institute","institutions":"Albuquerque Museum; UNM Art Museum","lithography_specific":"Stone Lithography; Color Lithography / Chromolithograph","visual_description":"Initials R; H; circles; lines; block","biographical_notes":"Tamarind Institute printer training participant September–December 1986, Tamarind Institute senior printer fellow January–December 1987, Tamarind Institute education director 1999–2015","img": "/objects/10180.png","display_template": "image","title":"Rodney Hamon",
+        "id":"10180" },
+    { "subject":"Image; Shape","associated_techniques":"Lithography","artists":"Dean Dass; Dan Fuller; Louisa Chase","publishers":"Tamarind Institute","visual_description":"leaf; circle; plant; oval","biographical_notes":"Printer Training Program, August–December 1987 \nSenior Printer Fellow, January 1988–December 1988","img": "/objects/10181.png","display_template": "image","title":"Heather Hoover",
+        "id":"10181" },
+    { "subject":"Image","associated_techniques":"Lithography","artists":"Frank Stella; Hellen Frankenthaler; Roy Lichtenstein; Robert Motherwell; James Rosenquist; David Hockney","printers":"Kenneth Tyler","publishers":"Tamarind Institute; Tyler Graphics; Singapore Tyler Print Institute; Petersburg Press","institutions":"National Gallery of Australia; National Gallery of Art","visual_description":"wolf; circle; animal","biographical_notes":"Printer fellow July 1972–September 1973","img": "/objects/10182.png","display_template": "image","title":"John Hutcheson",
+        "id":"10182" },
+    { "subject":"Shape","associated_techniques":"Lithography; Screenprint","artists":"Knox Martin; Will Barnet; Francisco Zuniga; Sandro Chia; Karl Schrag; Karel Appel; Peter Grimes; Rufino Tamayo; George Tooker; Tom Wesselman; Fairfield Porter; Neil Welliver","visual_description":"square; triangle; rhombus","img": "/objects/10183.png","display_template": "image","title":"American Atelier",
+        "id":"10183" },
+    { "subject":"Word; Image","associated_techniques":"Screenprint","artists":"Elvira Bach; Joseph Beuys (autorisierter Nachdruck); Max Bill; Sandro Chia; Eduardo Chillida; Joe Cocker; Christo Hanne Darboven; Bryan Ferry; Peter Arthur Hutchinson; Ilja Kabakov; Robert Glenn Ketchum; Ira Kaingang; Roy Lichtenstein; Robert Longo; Robert Mangold; Bernard Matemera; Joe Nalo; Haralampi G. Oroschakoff; Claus-Otto Paeffgen; Nam June Paik; Mimmo Paladino; Werner Pawlok; Suzan Pitt; Sigmar Polke; Jean Remmlinger; Andrej Rojter; Kenny Scharf; J.Raphael Soto; Antonio Tapies; Jan Peter Tripp; Tomi Ungerer; Peter Ustinov; Mario Vargas Llosa; Raymond E. Waydelich; Enoch zu Guttenberg","printers":"Michael Domberger","publishers":"Edition Domberger","other_techniques":"Collotype","visual_description":"Edition Domberger Columbus; plant; leaf","biographical_notes":"Portfolio “Columbus: In Search of a New Tomorrow\"","img": "/objects/10184.png","display_template": "image","title":"Edition Domberger Columbus",
+        "id":"10184" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"James Rosenquist; Claes Oldenburg; Roy Lichtenstein; Richard Smith; Francis Bacon; Joseph Cornell","publishers":"Richard Feigen Gallery; Richard L. Feigen & Co.","institutions":"Spencer Museum of Art; Ruth and Elmer Wellin Museum of Art Hamilton College; Kimbell Art Museum","visual_description":"Initials R; F; circle","img": "/objects/10185.png","display_template": "image","title":"Richard Feigen Graphics",
+        "id":"10185" },
+    { "subject":"Shape","associated_techniques":"Screenprint","artists":"Josef Albers; Jacob Lawerence; George Ortman; Frank Stella; Ellsworth Kelly; Robert Motherwell; Andy Warhol; Stuart Davis; Roy Lichtenstein; Larry Poons; Robert Indiana; Ad Reinhardt; Walker Evans; Piet Mondrian; Jean Dubuffet; Romare Bearden","publishers":"Sirocco Screenprints; Norman Ives; Sewell Sillman; Lorillard Company; Harry N. Abrams; Inc. Wadsworth Atheneum Museum of Art","institutions":"Dayton Art Institute; National Gallery of Art; Harvard Art Museum; The Metropolitan Museum of Art; Victoria and Albert Museum; Spencer Museum of Art","visual_description":"geometric; cube(s); line; box","img": "/objects/10186.png","display_template": "image","title":"Ives-Sillman",
+        "id":"10186" },
+    { "subject":"Word","associated_techniques":"Screenprint; Other","artists":"Joseph Beuys; Michelangelo Pistoletto; Roy Lichtenstein; Claes Oldenburg; Cooseje van Bruggen; Frank O. Gehry; Germano Celant","publishers":"Ziereis Facsimiles","institutions":"Harvard Art Museums; Flint Institute of Arts Museum+ Art School","other_techniques":"Artists Books","visual_description":"circle; ring; Gabriele Mazzotta Editore","img": "/objects/10187.png","display_template": "image","title":"Gabriele Mazzotta Editore",
+        "id":"10187" },
+    { "subject":"Word","associated_techniques":"Lithography; Screenprint","artists":"Piero Guccione; Jasper Johns; Vija Celmins; Richard Serra; Robert Rauschenberg; George Condo; Roy Lichtenstein; Siah Armajani; Kerry James Marshall; Julie Mehretu; Wangechi Mutu; Gabriel Orozco; Ed Ruscha; Ranjani Shettar; Sarah Sze; Xu Bing; Richard Haas; Frank Stella; Sandro Chia","printers":"Orlando Condeso; at Vinalhaven Press; Maurice Payne; Studio Santa Reparata","institutions":"The Metropolitan Museum of Art","visual_description":"The Mezzanine Gallery; The Metropolitan Museum of Art; New York","img": "/objects/10188.png","display_template": "image","title":"The Mezzanine Gallery, Metropolitan Museum of Art",
+        "id":"10188" },
+    { "subject":"Letter","associated_techniques":"Lithography","artists":"Willem de Kooning; Robert Motherwell; Roy Lichtenstein; Louise Nevelson; Ellsworth Kelly; Sam Francis; Eleanore Mikus; John Cage; Claes Oldenburg; Henry C. Pearson; Richard Linder; Saul Steinburg; Clinton Adams; Karl Schrag; William Brice; John Cage; Helen Frankenthaler; Philip Guston; Jasper Johns","printers":"Fred Genis; Ian Lawson; Michael Knigin; Jurgen Fischer; Roy Colonna","publishers":"Tamarind Institute; Hollander’s Workshop (1964–1972)","institutions":"National Gallery of Art; the Art Institute of Chicago; the Museum of Modern Art; The Lilley Museum of Art","visual_description":"Initials I; H","biographical_notes":"Printer fellow September 1961–June 1963\nJuly 1963– August 1964","img": "/objects/10189.png","display_template": "image","title":"Irwin Hollander",
+        "id":"10189" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography; Screenprint","artists":"Hugh Ricks; Stephen St. Germain; John Martinez; Milton Glaser; Woodie Pirtle; Thomas Mann; K.N Martin; Laura Smith; Tore Wallin; Michael Doret; Francoise Gilot; Chris Mayes; Richard Thomas; MAAN; Robert Gordy; George Dureau; Charest & Brousseau; Marcus Akinlana; Roy Lichtenstein","publishers":"Art4Now","visual_description":"Initials P; C; box; square; line","img": "/objects/10190.png","display_template": "image","title":"ProCreations",
+        "id":"10190" },
+    { "subject":"Letter; Image; Shape","associated_techniques":"Lithography; Screenprint","artists":"Nancy Graves; Roy Lichtenstein; James Rosenquist; James Turrell; Phillip Pearlstein; Robert Rauschenburg","printers":"Donald Saff","publishers":"Saff and Company","visual_description":"animal; crown; line; initials S; T; A","img": "/objects/10191.png","display_template": "image","title":"Saff Tech Arts",
+        "id":"10191" },
+    { "subject":"Word","associated_techniques":"Intaglio; Lithography","artists":"Nancy Graves; Roy Lichtenstein; James Rosenquist; James Turrell; Phillip Pearlstein","printers":"Donald Saff; Robert Rauschenburg","publishers":"Saff Tech Arts","intaglio_specific":"Etching","visual_description":"Saff and Company","img": "/objects/10192.png","display_template": "image","title":"Saff and Company",
+        "id":"10192" },
+    { "subject":"Image","associated_techniques":"Intaglio; Relief; Other","artists":"Michael Beatty; Gerry Bernstein; Nell Blaine; Matthew Carter; Bernard Chaet; Mark Cooper; ELTONO; Aaron Fink; Andy Freeberg; Raul Gonzales III; Teo Gonzalez; Anna Schuleit Haber; James Hansen; Anne Harris; Cyrus Highsmith; Chuck Holtzman; Lester Johnson; Markus Linnenbrink; Eva Lundsager; Judy Kensley McKie; Todd McKie; Keith Monday; Carrie Moyer; Eva Mueller; James Ovid Mustin III; David Ortins; Robert ParkeHarrison; Emilio Perez; Rachel Perry; Jeff Perrott; Charles Ritchie; Laurel Sparks; William Steiger; James Stroud; Bill Thompson; Roger Tibbetts; John Walker; Bill Wheelock; Brian Andrew Whitely; George Whitman; John Wilson; Janine Wong","printers":"James Stroud","publishers":"Center Street Studio","institutions":"Metropolitan Museum of Art; Museum of Fine Arts Boston; Harnett Museum of Art University of Richmond (CSS Archive); Museum of Modern Art New York; National Gallery of Art Washington DC; Museum of Fine Art Houston; Cleveland Museum of Art; Minneapolis Institute of Art; Fogg Museum of Art Harvard University; Yale Art Gallery; Hood Museum of Art Dartmouth College; Williams College Museum of Art; Boston Public Library; New York Public Library; List Art Center MIT; Rose Art Museum Brandeis University; School of the Museum of Fine Arts/Tufts Univeristy","intaglio_specific":"Engraving; Copper Engraving; Drypoint; Mezzotint; Etching; Aquatint; Soft-ground; Lift-ground (including sugar-lift and soap-lift); Photogravure","relief_specific":"Woodcut; Linocut; Photopolymer Plate; Letterpress","other_techniques":"Collagraph; Monoprint; Monotype","visual_description":"Scallop shell image","biographical_notes":"Center Street Studio was established by artist James Stroud after receiving his MFA from the Yale School of Art in 1984. The studio has published hundreds of print projects with established and emerging artists over the years.","img": "/objects/10193.jpeg","display_template": "image","title":"James Stroud + Center Street Studio",
+        "id":"10193" },
+    { "subject":"Letter","associated_techniques":"Screenprint","artists":"Richard Anuszkiewicz; Jim Dine; Helen Frankenthaler; Nicholas Kruschenick; Robert Kulicke; Mon Levinson; Roy Lichtenstein; Claes Oldenburg; George Segal; Tom Wesselmann; Allan D’Arcangelo; Andy Warhol; Lee Bontecou; Jasper Johns; Donald Judd; Robert Morris; Larry Poons; James Rosenquist; Frank Stella; Robert Indiana; Robert Rauschenburg; James Rosenquist","printers":"Rosa Esman","publishers":"Revolver Gallery","institutions":"National Gallery of Art; The Museum of Modern Art; The Metropolitan Museum of Art","visual_description":"Initials; T; P; abstract","img": "/objects/10194.png","display_template": "image","title":"Tanglewood Press",
+        "id":"10194" },
+    { "subject":"Image; Shape","associated_techniques":"Intaglio; Lithography; Relief; Screenprint","artists":"Robert Rauschenberg; Jasper Johns; Roy Lichtenstein; David Hockney; Helen Frankenthaler; Ellsworth Kelly. Frank Stella; Kenneth Noland; Nancy Graves; Michael Heizer; Robert Motherwell; Joan Mitchell; James Rosenquist; Masami Teraoka; Josef Albers; Anthony Caro","printers":"Kenneth Tyler; Kevin Falco; John Hutcheson; Michael Mueller","publishers":"Tamarind Lithography Workshop; Gemini G.E.L","institutions":"National Gallery of Australia; Tate Modern; The National Gallery of Art; The Center for Contemporary Graphic Art; Fukushima Prefecture; The Walker Art Center; Spencer Museum of Art","intaglio_specific":"Drypoint; Etching; Aquatint; Photogravure","relief_specific":"Woodcut","visual_description":"cube; square; diamond; triangle; abstract","img": "/objects/10195.png","display_template": "image","title":"Tyler Graphics",
+        "id":"10195" },
+    { "subject":"Letter","associated_techniques":"Intaglio; Lithography; Screenprint","artists":"Lisa Anne Auerbach; Radcliffe Bailey; Frida Baranek; L.Barber; George Bartko; Leah Beeferman; Erika Blumenfeld; Edward Boccia; Chakaia Booker; Carolyn Brady; Breyten Breytenbach; Tom Butter; Michael Byron; Squeak Carnwath; Bill Cass; Nick Cave; Lee. R. Chesney Jr. Lo Ch’ing; Alan Cober; Sue Coe; Willie Cole; Peter Dean; Rita Dewitt; Michaela D. Hall; James Drakes; Henrik Drescher; Lise Drost; Chris Duncan; Ben Edmiston; Susan Eisler; Yizhak Elyashiv; Donald S. Farnsworth; Raphael Ferrer; Tom Friedman; Orly Genger; Sam Gilliam; Diana Guerrero-Macia; Ann Hamilton; Trenton Doyle Hancock; David Humphrey; Keith Jacobshagen; Michael Joo; Nina Katchadourian; Bill Kohn; Joyce Kozloff; Karen Kunc; John Lees; Annette Lemieux; Roy Lichtenstein; Marvin Lipofsky; Hung Liu; Louise Lochhead; David Lund; Enrique Martinez Celaya; Paul Mason; James McGarrell; Lloyd Menard; Meleko Mokgosi; Franco Mondini-Ruiz; John Moore; Joe Moss; Greely Myatt; Tom Nakashima; David Nash; Robert A. Nelson; Shaun O’Dell; Shimon Okshteyn; Ivo Petkov; Tom Phillips; Jody Pinto; Phyllis Plattner; Jaune Quick-To-See Smith; Edda Renouf; Holly Roberts; Dario Robleto; Juan Sanchez; Lisa Sanditz; Jane Sauer; Joyce Scott; Beverly Semmes; Susan Shie; Stephen Sidelinger; James Siena; Jeffrey Sippel; Duane Slick; TL Solien; Mary Sprague; Joseph Stefanelli; Stephanie Syjuco; Rochelle Toner; Diane Victor; Catherine Wagner; Paula Wilson","printers":"Tom Reed; Erin Johnston; Joan Hall; Mary Anne Simmons (Maryanne Ellison Simmons); Kevin Garber; Dan Gualdoni; Howard Jones","institutions":"The Mildred Lane Kemper Art Museum","intaglio_specific":"Etching","other_techniques":"Collagraph","visual_description":"Initials; W; U","img": "/objects/10196.png","display_template": "image","title":"Washington University&#39;s Collaborative Printmaking Workshop (renamed Island Press)",
+        "id":"10196" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Mark Adams; Ruth Asawa; Wayne Thiebaud; David Park; Elmer Bischoff; Richard Diebenkorn; Theophilus Brown; Paul Wonner","printers":"Kathan Brown","publishers":"Crown Point Press; Van Hoesen and Adams Home Studio","institutions":"Achenbach Foundation for Graphic Arts; Fine Arts Museums of San Francisco; Art Institute of Chicago; Brooklyn Museum; Cincinnati Art Museum; El Paso Museum of Art; Los Angeles County Museum of Art; Metropolitan Museum of Art; New York; J. P. Morgan Library; Museum of Modern Art; Norton Simon Museum; The Oakland Museum; Rutgers University Printmaking Archives; San Francisco Museum of Modern Art; San Jose Museum of Art; Smithsonian Institution; Stanford University Libraries; University of California; Berkeley Art Museum; University of Idaho; Moscow; University Museums; Iowa State University; Victoria and Albert Museum; The Portland Art Museum","intaglio_specific":"Drypoint; Etching; Aquatint","visual_description":"Initials; B; V; H","img": "/objects/10197.png","display_template": "image","title":"Beth Van Hoesen",
+        "id":"10197" },
+    { "subject":"Word; Image","associated_techniques":"Intaglio","artists":"Joan Snyder; Brice Marden; Jennnifer Barlett; John Baldessari; Claes Oldenburg; Edward Ruscha; Tom Wesselmann; Chuck Close; Helen Frankenthaler; Toni Dove; Yvonne Jacquette","printers":"Kathan Brown","publishers":"Crown Point Press; Iris Editions; Brooke Alexander Inc. Aeropress Studio; Riverhouse Editions; Brewery Artwalk","institutions":"National Gallery of Art","intaglio_specific":"Etching","other_techniques":"Monotype","visual_description":"Patricia Branstead; sun; tree(s); horizon","img": "/objects/10198.png","display_template": "image","title":"Patricia Branstead",
+        "id":"10198" },
+    { "subject":"Letter","associated_techniques":"Intaglio","artists":"Chuck Close; Richard Diebenkorn; Wayne Thiebaud; Brice Marden; John Cage; Joan Jonas; Sol LeWitt; Ed Ruscha; Helen Frankenthaler; Julie Mehretu; Beth Van Hoesen","printers":"Stephen Thomas. Daria Sywulak; Tadashi Toda; Brian Shure; John Slivon. Nancy Anello; Renee Bott; Lawrence Hamlin","publishers":"Crown Point Press; Tamarind Institute","institutions":"Fine arts museums of San Francisco; The Museum of Modern Art; National Gallery of Art","intaglio_specific":"Etching","visual_description":"Initial; K; dot","img": "/objects/10199.png","display_template": "image","title":"Kathan Brown",
+        "id":"10199" },
+    { "subject":"Shape","associated_techniques":"Intaglio","artists":"Joseph Goldyne; David Kelso; Jeanne Gantz; Fritz Scholder","intaglio_specific":"Etching","visual_description":"circle; line","img": "/objects/10200.png","display_template": "image","title":"El Dorado Press",
+        "id":"10200" },
+    { "subject":"Letter","associated_techniques":"Intaglio; Lithography; Relief; Other","artists":"Amy Cutler; Amy O'Neill; Bill Jensen; Carmen Herrera; Carroll Dunham; Cecily Brown; Charline von Heyl; Christopher Wool; Chuck Close; Donald Baechler; Ed Ruscha; Eddie Martinez; Edwin Schlossberg; Elizabeth Murray; Ellen Gallagher; Enrique Chagoya; Helen Frankenthaler; James Rosenquist; James Siena; Jane Hammond; Jason Middlebrook; Jasper Johns; Jennie C. Jones; Jim Dine; Jim Isermann; Joe Bradley; Joey Kotting; Julia Rommel; Julian Lethbridge; Kelley Walker; Kiki Smith; Lee Bontecou; Lisa Yuskavage; Marina Adams; Mark Fox; Martha Tuttle; Martin Puryear; Michael Williams; N. Dash; Nathlie Provosty; Orly Genger; Richard Tuttle; Robert Rauschenberg; Rosa Loy; Ryan and Trevor Oakes; Sam Moyer; Sarah Crowner; Susan Rothenberg; Suzanne McClelland; Terry Winters; Wyatt Kahn","printers":"Tatanya Grossman; Bill Goldston","institutions":"Museum of Modern Art","relief_specific":"Woodcut; Woodblock (Mokuhanga)","lithography_specific":"Stone Lithography; Color Lithography / Chromolithograph; Offset Lithography","other_techniques":"Monoprint","visual_description":"U; L; A; E; script","img": "/objects/10019.png","display_template": "multiple","title":"Universal Limited Art Editions",
+        "id":"10019" },
+    { "subject":"Letter","artists":"Amanda Knowles; Amze Emmons; Art Werger; Beauvais Lyons; Chris Johanson/OchoLoco Press; Crystal Wagner; Dan Ibarra; Dennis McNett; Dr. Eric Avery; Dusty Herbig; Emmy Lingscheit; Ericka Walker; Fred Stonehouse; Greg Nanney (Drive By Press); Jack Damer; Jay Ryan; Jennifer Schmidt; Jenny Schmid; Jeremy Lundquist; Joel Seah; John Hancock; John Hitchcock; Jon Swindler; Joseph Velasquez; Kevin Haas; Koichi Yamamoto; Lenore Thomas; Lisa Bulawsky; Mark Hosford; Martin Mazzora; Michael Barnes; Michael Krueger; Nick Ruth; Peter Gourfain; R.L. Tilman; Santiago Armangod; Sean StarWars","printers":"Dusty Herbig","visual_description":"L; E; E","biographical_notes":"Syracuse University Print Media Department print publishing program, Syracuse, New York.","img": "/objects/10201.jpg","display_template": "image","title":"Lake Effect Editions",
+        "id":"10201" },
+    { "subject":"Letter","associated_techniques":"Relief","artists":"Alex Katz; Joan Snyder; Louisa Chase; Richard Boseman; Richard Mock; Susan Crile","publishers":"Diane Villani Editions","relief_specific":"Woodcut","visual_description":"C","img": "/objects/10202.png","display_template": "image","title":"Chip Elwell",
+        "id":"10202" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography; Relief","artists":"Ron Adams; Anthony Baab; Nick Bubash; Paul Brach; Susan Davidoff; Archie Scott Gobber; Julie Green; Robert Green; Edward Henderson; Peregrine Honig; Tom Huck; Benito Huerta; Gesine Janzen; Luis Jiménez; Elizabeth “Grandma” Layton; Mike Lyon; Alden Mason; Marcie Miller Gross; John Newman; Ed Paschke; Zigmunds Priede; Warren Rosser; Miriam Schapiro; Roger Shimomura; Jaune Quick-To-See Smith; Robert Stackhouse; Robert Sudlow; Akio Takamori; Theodore Waddell; Patti Warashina ; William Wiley; Andrzej Zielinski","printers":"Michael Sims","publishers":"Landfall Press","institutions":"Nelsen-Atkins Museum of Art","lithography_specific":"Stone Lithography; Plate Lithography; Color Lithography / Chromolithograph; Photomechanical Lithography","visual_description":"L; W; geometric; lines","img": "/objects/10203.jpg","display_template": "image","title":"Lawrence Lithography Workshop",
+        "id":"10203" },
+    { "subject":"Letter; Shape","associated_techniques":"Lithography; Other","artists":"Jose Luis Cuevas","printers":"Ernest de Soto","publishers":"Collector's Press","other_techniques":"Handmade paper","visual_description":"K; C; rocking chair; chair","biographical_notes":"Wayne State University MFA in Printmaking; Co-founder of Twinrocker Handmade Paper","img": "/objects/10204.jpeg","display_template": "image","title":"Kathryn Clark",
+        "id":"10204" },
+    { "subject":"Shape","associated_techniques":"Lithography","artists":"Dale DeArmond; Byron Birdsall; Gary Lyon","printers":"Guitta Corey","lithography_specific":"Stone Lithography; Plate Lithography","visual_description":"circle; compass","biographical_notes":"The press was founded in 1980 by Guitta Corey, who holds a degree in Printmaking from the Rhode Island School of Design.","img": "/objects/10205.png","display_template": "image","title":"Solstice Press",
+        "id":"10205" },
+    { "subject":"Image","associated_techniques":"Intaglio; Lithography; Other","artists":"Dale Chihuly; Erwin Eisch; Shane Fero; Stanislav Libenský; Andy Owen; Paul Stankard; Therman Statom; Sybren Valkema; Ann Wolff; Walter Darby Bannard; Louisa Chase; Herb Jackson; Mildred Thompson; Emilio Vedova; John Wilde; Cynthia Bringle; John Glick; Sergei Isupov; Italo Scanga; Glen Alps; Ken Kerslake; Karen Kunc; Tom Nakashima; Judith O’Rourke; Dan Welden; Dorothy Simpson Krause; David Dodge Lewis; Judith O’Rourke; Warrington Colescott; Nancy Genn; Richard Jolley; Stanislav Libenski; Thomas Philabaum; Claire Van Vliet; Carol Wax","printers":"Harvey K. Littleton; Sandy Willcox; Judith O’Rourke; June Lambla; Paul Maguire","publishers":"Crown Point Press; Flatrock Press","institutions":"Western Carolina University Fine Art Museum","other_techniques":"Vitreography","visual_description":"shape; rainbow; round; U","biographical_notes":"Founded by Harvey K. Littleton. Specialized in Vitreography, a technique which uses glass as the matrix.","img": "/objects/10206.jpeg","display_template": "image","title":"Littleton Studios",
+        "id":"10206" }];
+
+// Valid field names for URL-based searches
+const validFields = ["subject","associated_techniques","artists","printers","publishers","institutions","intaglio_specific","relief_specific","lithography_specific","screenprint_specific","other_techniques","visual_description","biographical_notes","title","display_template"];
+
+// Date field names - add your date fields here
+const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_created', 'date_published'];
+
+// Cache DOM elements
+var loadingIcon, filterTextBox, browseItemsDiv;
+
+/* 
+    get a theme icon based on display_template or format 
+    return svg sprite
+*/
+function getIcon(objectTemplate,objectFormat,svgType) {
+    var iconTemplate, iconId, iconTitle;
+    if (objectTemplate && objectTemplate != "") {
+        iconTemplate = objectTemplate;
+    } else if (objectFormat && objectFormat != "") {
+        iconTemplate = objectFormat;
+    } else {
+        iconTemplate = ""
+    }
+    // choose icon
+    if (iconTemplate.includes("image")) {
+        iconId = "icon-image";
+        iconTitle = "image file icon";
+    } else if (iconTemplate.includes("pdf")) {
+        iconId = "icon-pdf";
+        iconTitle = "pdf file icon";
+    } else if (iconTemplate.includes("video")) {
+        iconId = "icon-video";
+        iconTitle = "video file icon";
+    } else if (iconTemplate.includes("audio")) {
+        iconId = "icon-audio";
+        iconTitle = "audio file icon";
+    } else if (iconTemplate.includes("panorama")) {
+        iconId = "icon-panorama";
+        iconTitle = "panorama file icon";
+    } else if (iconTemplate.includes("compound")) {
+        iconId = "icon-compound-object";
+        iconTitle = "compound object icon";
+    } else if (iconTemplate.includes("multiple")) {
+        iconId = "icon-multiple";
+        iconTitle = "multiple object icon";
+    } else if (iconTemplate.includes("record")) {
+        iconId = "icon-record";
+        iconTitle = "record object icon";
+    } else {
+        iconId = "icon-default";
+        iconTitle = "file icon";
+    }
+    if (svgType == "thumb") {
+        // svg sprite as thumb
+        return '<svg class="bi text-body img-fluid" fill="currentColor" role="img"><title>' + iconTitle + '</title><use href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    } else if (svgType == "hidden") {
+        // svg as sprite with aria-hidden
+        return '<svg class="bi icon-sprite" aria-hidden="true"><use href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    } else {
+        // svg as sprite
+        return '<svg class="bi icon-sprite" aria-label="' + iconTitle + '"><use href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    }
+}
+
+
+// =============================================================================
+// CARD GENERATION
+// =============================================================================
+
+/**
+ * Creates HTML card for displaying a collection item
+ */
+function makeCard(obj) {
+    const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
+    const itemHref = `/items/${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
+    
+    let card = '<div class="item col-lg-2 col-md-3 col-6 mb-2"><div class="card">';
+    
+    // Image or icon
+    if(obj.img) {
+        card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
+    }
+    
+    // Title
+    card += `<div class="card-body text-center"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
+    
+    // Icon for items without images
+    if(!obj.img) {
+        const thumbIcon = getIcon(obj.display_template, obj.format, "thumb");
+        if(thumbIcon) card += `<p><a href="${itemHref}">${thumbIcon}</a></p>`;
+    }
+    
+    // Field data
+    card += '<p class="card-text">';
+    
+    card += '</p>';
+    
+    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
+    return card;
+}
+
+// =============================================================================
+// DATE UTILITIES
+// =============================================================================
+
+/**
+ * Check if a field name represents a date field
+ */
+function isDateField(fieldName) {
+    return dateFields.includes(fieldName.toLowerCase());
+}
+
+/**
+ * Normalize date string to consistent format for comparison
+ * Handles: yyyy, yyyy-mm, yyyy-mm-dd, mm/dd/yyyy
+ */
+function normalizeDateString(dateStr) {
+    if (!dateStr) return null;
+    
+    const cleaned = dateStr.trim();
+    
+    // Year only (4 digits)
+    if (/^\d{4}$/.test(cleaned)) {
+        return { normalized: cleaned, type: 'year', year: parseInt(cleaned) };
+    }
+
+    // Year-Month format yyyy-mm
+    const yearMonthMatch = cleaned.match(/^(\d{4})-(\d{1,2})$/);
+    if (yearMonthMatch) {
+        const [, year, month] = yearMonthMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}`,
+            type: 'year-month',
+            year: parseInt(year),
+            month: parseInt(month)
+        };
+    }
+
+    // ISO format yyyy-mm-dd
+    const isoMatch = cleaned.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (isoMatch) {
+        const [, year, month, day] = isoMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`,
+            type: 'full',
+            year: parseInt(year),
+            month: parseInt(month),
+            day: parseInt(day)
+        };
+    }
+    
+    // US format mm/dd/yyyy
+    const usMatch = cleaned.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    if (usMatch) {
+        const [, month, day, year] = usMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`,
+            type: 'full',
+            year: parseInt(year),
+            month: parseInt(month),
+            day: parseInt(day)
+        };
+    }
+    
+    return null;
+}
+
+/**
+ * Check if a date falls within a range (handles partial dates)
+ */
+function isDateInRange(itemDate, startDate, endDate) {
+    const itemDateObj = normalizeDateString(itemDate);
+    if (!itemDateObj) return false;
+    
+    const startDateObj = startDate ? normalizeDateString(startDate) : null;
+    const endDateObj = endDate ? normalizeDateString(endDate) : null;
+    
+    // Year-only comparison
+    if (itemDateObj.type === 'year') {
+        let inRange = true;
+        if (startDateObj) inRange = inRange && itemDateObj.year >= startDateObj.year;
+        if (endDateObj) inRange = inRange && itemDateObj.year <= endDateObj.year;
+        return inRange;
+    }
+    
+    // Year-Month comparison
+    if (itemDateObj.type === 'year-month') {
+        let inRange = true;
+        
+        if (startDateObj) {
+            // Convert start date to year-month format for comparison
+            let startNormalized;
+            if (startDateObj.type === 'year') {
+                startNormalized = `${startDateObj.year}-01`;
+            } else if (startDateObj.type === 'year-month') {
+                startNormalized = startDateObj.normalized;
+            } else {
+                startNormalized = startDateObj.normalized.substring(0, 7); // Extract yyyy-mm from yyyy-mm-dd
+            }
+            inRange = inRange && itemDateObj.normalized >= startNormalized;
+        }
+        
+        if (endDateObj) {
+            // Convert end date to year-month format for comparison
+            let endNormalized;
+            if (endDateObj.type === 'year') {
+                endNormalized = `${endDateObj.year}-12`;
+            } else if (endDateObj.type === 'year-month') {
+                endNormalized = endDateObj.normalized;
+            } else {
+                endNormalized = endDateObj.normalized.substring(0, 7); // Extract yyyy-mm from yyyy-mm-dd
+            }
+            inRange = inRange && itemDateObj.normalized <= endNormalized;
+        }
+        
+        return inRange;
+    }
+    
+    // Full date comparison
+    if (itemDateObj.type === 'full') {
+        let inRange = true;
+        if (startDateObj) {
+            let startNormalized;
+            if (startDateObj.type === 'year') {
+                startNormalized = `${startDateObj.year}-01-01`;
+            } else if (startDateObj.type === 'year-month') {
+                startNormalized = `${startDateObj.normalized}-01`;
+            } else {
+                startNormalized = startDateObj.normalized;
+            }
+            inRange = inRange && itemDateObj.normalized >= startNormalized;
+        }
+        if (endDateObj) {
+            let endNormalized;
+            if (endDateObj.type === 'year') {
+                endNormalized = `${endDateObj.year}-12-31`;
+            } else if (endDateObj.type === 'year-month') {
+                // Get last day of the month
+                const year = endDateObj.year;
+                const month = endDateObj.month;
+                const lastDay = new Date(year, month, 0).getDate();
+                endNormalized = `${endDateObj.normalized}-${lastDay.toString().padStart(2, '0')}`;
+            } else {
+                endNormalized = endDateObj.normalized;
+            }
+            inRange = inRange && itemDateObj.normalized <= endNormalized;
+        }
+        return inRange;
+    }
+    
+    return false;
+}
+
+// =============================================================================
+// SEARCH & FILTER FUNCTIONS
+// =============================================================================
+
+/**
+ * Check if item matches search criteria (handles semicolon-separated values)
+ */
+function itemMatches(item, field, query, startDate, endDate) {
+    // Date field search
+    if (isDateField(field) && (startDate || endDate)) {
+        if (!item[field]) return false;
+        const fieldValues = item[field].toString().split(";");
+        return fieldValues.some(value => isDateInRange(value.trim(), startDate, endDate));
+    }
+    
+    // Text search
+    if (query && query !== "") {
+        const q = query.trim().toUpperCase();
+        
+        // Search all fields 
+        if (field === "all") {
+            for (let k in item) {
+                if (k !== "img" && item[k] && item[k].toString().toUpperCase().includes(q)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        // Search specific field
+        if (item[field]) {
+            const fieldValues = item[field].toString().split(";");
+            return fieldValues.some(value => value.trim().toUpperCase().includes(q));
+        }
+    }
+    
+    return false;
+}
+
+/**
+ * Basic filter - searches single field with single query
+ */
+function filterItems(arr, query, field = "all", startDate = "", endDate = "") {
+    loadingIcon.classList.remove("d-none");
+    
+    let filteredItems = arr;
+    
+    // Apply filter if we have search criteria
+    if (query || startDate || endDate) {
+        filteredItems = arr.filter(item => itemMatches(item, field, query, startDate, endDate));
+    }
+    
+    updateDisplay(filteredItems, query, field, startDate, endDate);
+    loadingIcon.classList.add("d-none");
+}
+
+/**
+ * Advanced filter - handles multiple search criteria with boolean logic
+ */
+function advancedFilterItems(arr, searchCriteria) {
+    loadingIcon.classList.remove("d-none");
+    
+    const filteredItems = arr.filter(item => {
+        if (!searchCriteria?.length) return true;
+        
+        let result = true;
+        
+        for (let i = 0; i < searchCriteria.length; i++) {
+            const {boolean, field, value, startDate, endDate} = searchCriteria[i];
+            
+            // Skip empty criteria
+            if (!value && !startDate && !endDate) continue;
+            
+            const matches = itemMatches(item, field, value, startDate, endDate);
+            
+            // Apply boolean logic
+            switch(boolean) {
+                case 'OR':  result = result || matches; break;
+                case 'NOT': result = result && !matches; break;
+                default:    result = result && matches; break; // AND or first item
+            }
+        }
+        
+        return result;
+    });
+    
+    updateDisplay(filteredItems);
+    displayActiveFilters(searchCriteria);
+    loadingIcon.classList.add("d-none");
+}
+
+/**
+ * Update the display with filtered results
+ */
+function updateDisplay(filteredItems, query = "", field = "", startDate = "", endDate = "") {
+    // Use DocumentFragment for better performance when adding many cards
+    const fragment = document.createDocumentFragment();
+    const tempDiv = document.createElement('div');
+    
+    // Generate all cards at once
+    const cardsHTML = filteredItems.map(item => makeCard(item)).join('');
+    tempDiv.innerHTML = cardsHTML;
+    
+    // Move all cards to fragment
+    while (tempDiv.firstChild) {
+        fragment.appendChild(tempDiv.firstChild);
+    }
+    
+    // Single DOM update
+    browseItemsDiv.innerHTML = '';
+    browseItemsDiv.appendChild(fragment);
+    
+    // Update count
+    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} of 184 items`;
+    
+    // Focus active input (only if needed)
+    if (query || startDate || endDate) {
+        const activeInput = document.querySelector('#filterTextBox:not([style*="display: none"]), #startDate, #endDate');
+        if (activeInput && document.activeElement !== activeInput) {
+            activeInput.focus();
+        }
+    }
+    
+    // Show filter indicators for basic search
+    if (query || startDate || endDate) {
+        const searchCriteria = [{
+            boolean: 'AND',
+            field: field,
+            value: isDateField(field) ? `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, '') : query,
+            startDate: startDate,
+            endDate: endDate
+        }];
+        displayActiveFilters(searchCriteria);
+    } else if (arguments.length <= 1) { // Only clear if not called from advancedFilterItems
+        displayActiveFilters([]);
+    }
+}
+
+// =============================================================================
+// UI INTERACTION HANDLERS
+// =============================================================================
+
+/**
+ * Toggle between text and date inputs based on field selection
+ */
+function toggleDateInputs(fieldName, container) {
+    const textInput = container.querySelector('.search-input, #filterTextBox');
+    const dateInputs = container.querySelector('.date-range-inputs, #dateRangeInputs');
+    
+    if (!textInput || !dateInputs) return;
+    
+    if (isDateField(fieldName)) {
+        textInput.style.display = 'none';
+        dateInputs.style.display = 'block';
+        dateInputs.classList.add('active');
+    } else {
+        textInput.style.display = 'block';
+        dateInputs.style.display = 'none';
+        dateInputs.classList.remove('active');
+    }
+}
+
+/**
+ * Handle basic search form submission
+ */
+function submitFilter() {
+    const query = filterTextBox.value;
+    const fieldSelect = document.querySelector("#fieldSelect");
+    const field = fieldSelect ? fieldSelect.value : "all";
+    
+    if (isDateField(field)) {
+        const startDate = document.querySelector("#startDate").value;
+        const endDate = document.querySelector("#endDate").value;
+        
+        if (!startDate && !endDate) return false;
+        
+        // Use URL parameters for date searches
+        const params = new URLSearchParams();
+        params.set('f0', field);
+        params.set('b0', 'AND');
+        if (startDate) params.set('start0', startDate);
+        if (endDate) params.set('end0', endDate);
+        params.set('v0', `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, ''));
+        
+        window.location = window.location.pathname + "?" + params.toString();
+    } else {
+        // Use hash for text searches
+        const hash = field === "all" ? query : `${field}:${query}`;
+        window.location.hash = encodeURIComponent(hash);
+    }
+    return false;
+}
+
+/**
+ * Reset all filters and return to base URL
+ */
+function resetFilter() {
+    // Clear UI
+    filterTextBox.value = "";
+    document.querySelector("#fieldSelect").value = "all";
+    
+    // Clear URL completely
+    if (window.location.hash || window.location.search) {
+        window.location = window.location.pathname;
+        return false;
+    }
+    
+    // Reset advanced search form
+    const searchRows = document.getElementById('searchRows');
+    if (searchRows) {
+        searchRows.innerHTML = '';
+        for (let i = 0; i < 3; i++) addSearchRow();
+    }
+    
+    filterItems(items, "", "all");
+    displayActiveFilters([]);
+    return false;
+}
+
+// =============================================================================
+// URL STATE MANAGEMENT
+// =============================================================================
+
+/**
+ * Handle hash-based searches (simple searches and facet links)
+ */
+function handleHashChange() {
+    const hash = decodeURIComponent(location.hash.substr(1));
+    
+    // ignore back to top hash
+    if (hash == 'maincontent') return;
+    // Don't interfere with parameter-based searches
+    if (!hash && window.location.search) return;
+    
+    // Clear parameters if using hash
+    if (hash && window.location.search) {
+        window.location = window.location.pathname + "#" + hash;
+        return;
+    }
+    
+    // No hash - show all items
+    if (!hash) {
+        filterTextBox.value = "";
+        document.querySelector("#fieldSelect").value = "all";
+        filterItems(items, "", "all");
+        updateAdvancedSearchModal([]);
+        return;
+    }
+    
+    // Parse field:query format
+    let field = 'all';
+    let query = hash;
+
+    if (hash.includes(":")) {
+        const [potentialField, hashQuery] = hash.split(":");
+        if (validFields.includes(potentialField)) {
+            field = potentialField;
+            query = hashQuery;
+        } else {
+            // Invalid field - search everything with just the query part
+            field = 'all';
+            query = hashQuery; // Use only the part after the colon, not the full hash
+        }
+    }
+    
+    // Update UI and filter
+    filterTextBox.value = query;
+    
+    document.querySelector("#fieldSelect").value = field;
+    filterItems(items, query, field);
+    
+    // Update advanced search modal
+    if (query) {
+        updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}], true);
+    }
+}
+
+// =============================================================================
+// ADVANCED SEARCH MODAL
+// =============================================================================
+
+/**
+ * Update advanced search modal to reflect current search state
+ */
+function updateAdvancedSearchModal(searchCriteria, forceUpdate = false) {
+    const searchRows = document.getElementById('searchRows');
+    if (!searchRows) return;
+    
+    // Add default empty rows if no criteria
+    if (!searchCriteria.length && searchRows.children.length === 0) {
+        for (let i = 0; i < 3; i++) addSearchRow();
+        return;
+    }
+    
+    // Rebuild rows from criteria
+    if (searchCriteria.length && (searchRows.children.length === 0 || forceUpdate)) {
+        searchRows.innerHTML = '';
+        searchCriteria.forEach(criteria => addSearchRow(criteria));
+        addSearchRow(); // Extra empty row
+    }
+}
+
+/**
+ * Add a search row to the advanced search modal
+ */
+function addSearchRow(values = {}) {
+    const template = document.getElementById('searchRowTemplate');
+    const searchRows = document.getElementById('searchRows');
+    const newRow = template.content.cloneNode(true);
+    const row = newRow.querySelector('.search-row');
+    
+    // Set initial values
+    if (values.boolean) row.querySelector('.boolean-operator').value = values.boolean;
+    if (values.field) {
+        row.querySelector('.field-select').value = values.field;
+        toggleDateInputs(values.field, row);
+    }
+    if (values.value && !isDateField(values.field)) {
+        row.querySelector('.search-input').value = values.value;
+    }
+    if (values.startDate) {
+        const startInput = row.querySelector('.start-date');
+        if (startInput) startInput.value = values.startDate;
+    }
+    if (values.endDate) {
+        const endInput = row.querySelector('.end-date');
+        if (endInput) endInput.value = values.endDate;
+    }
+    
+    // Hide boolean operator for first row
+    if (searchRows.children.length === 0) {
+        row.querySelector('.boolean-operator').style.visibility = 'hidden';
+    }
+    
+    // Event handlers
+    row.querySelector('.field-select').addEventListener('change', e => toggleDateInputs(e.target.value, row));
+    row.querySelector('.remove-row').addEventListener('click', () => {
+        row.remove();
+        if (searchRows.children.length === 1) {
+            searchRows.querySelector('.boolean-operator').style.visibility = 'hidden';
+        }
+    });
+    
+    // Enter key handlers
+    ['.search-input', '.start-date', '.end-date'].forEach(selector => {
+        const input = row.querySelector(selector);
+        if (input) {
+            input.addEventListener('keypress', e => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    submitAdvancedSearch();
+                }
+            });
+        }
+    });
+    
+    searchRows.appendChild(row);
+}
+
+/**
+ * Submit advanced search form
+ */
+function submitAdvancedSearch(event) {
+    if (event?.preventDefault) event.preventDefault();
+    
+    const form = document.getElementById('advancedSearchForm');
+    const rows = form.querySelectorAll('.search-row');
+    const params = new URLSearchParams();
+    
+    // Build parameters from form rows
+    rows.forEach((row, index) => {
+        const boolean = index === 0 ? 'AND' : row.querySelector('.boolean-operator').value;
+        const field = row.querySelector('.field-select').value;
+        
+        if (isDateField(field)) {
+            const startDate = row.querySelector('.start-date').value.trim();
+            const endDate = row.querySelector('.end-date').value.trim();
+            
+            if (startDate || endDate) {
+                params.set(`b${index}`, boolean);
+                params.set(`f${index}`, field);
+                params.set(`v${index}`, `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, ''));
+                if (startDate) params.set(`start${index}`, startDate);
+                if (endDate) params.set(`end${index}`, endDate);
+            }
+        } else {
+            const value = row.querySelector('.search-input').value.trim();
+            if (value) {
+                params.set(`b${index}`, boolean);
+                params.set(`f${index}`, field);
+                params.set(`v${index}`, value);
+            }
+        }
+    });
+    
+    // Preserve sort
+    const activeSort = document.querySelector(".browse-sort-item.active");
+    if (activeSort) params.set('sort', activeSort.dataset.filter);
+    
+    window.location = window.location.pathname + "?" + params.toString();
+    
+    // Close modal
+    try {
+        const modal = bootstrap.Modal.getInstance(document.getElementById('advancedSearchModal'));
+        modal?.hide();
+    } catch (e) {
+        console.error('Could not close modal:', e);
+    }
+    
+    return false;
+}
+
+// =============================================================================
+// ACTIVE FILTER INDICATORS
+// =============================================================================
+
+/**
+ * Display active filter buttons below search box
+ */
+function displayActiveFilters(searchCriteria) {
+    const activeFiltersDiv = document.getElementById('activeFilters');
+    if (!activeFiltersDiv) return;
+    
+    activeFiltersDiv.innerHTML = '';
+    if (!searchCriteria?.length) return;
+    
+    const container = document.createElement('div');
+    container.className = 'd-flex flex-wrap align-items-center';
+    
+    // Create filter buttons
+    searchCriteria.forEach((criteria, index) => {
+        if (!criteria.value) return;
+        
+        const button = document.createElement('button');
+        button.className = `btn btn-sm btn-outline-${criteria.boolean === 'NOT' ? 'danger' : criteria.boolean === 'OR' ? 'warning' : 'success'} me-2 mb-1`;
+        button.type = 'button';
+        
+        // Get field display name
+        let fieldName = criteria.field === 'all' ? 'All Fields' : 
+        'display_template' === criteria.field ? 'Content Type' : 
+            'subject' === criteria.field ? 'Descriptor' : 'associated_techniques' === criteria.field ? 'Techniques' : 'artists' === criteria.field ? 'Associated Artists' : 'printers' === criteria.field ? 'Associated Printers' : 'publishers' === criteria.field ? 'Associated Workshops and Publishers' : 'institutions' === criteria.field ? 'Major Institutional Collections' : 'intaglio_specific' === criteria.field ? 'Intaglio Techniques' : 'relief_specific' === criteria.field ? 'Relief Techniques' : 'lithography_specific' === criteria.field ? 'Lithography Techniques' : 'screenprint_specific' === criteria.field ? 'Screenprint Techniques' : 'other_techniques' === criteria.field ? 'Other Techniques' : 'visual_description' === criteria.field ? 'Visual Description' : 'biographical_notes' === criteria.field ? 'Biographical Notes' : 
+            criteria.field.charAt(0).toUpperCase() + criteria.field.slice(1).replace(/_/g, ' ');
+        
+        // Format display value for dates
+        let displayValue = criteria.value;
+        if (isDateField(criteria.field) && (criteria.startDate || criteria.endDate)) {
+            if (criteria.startDate && criteria.endDate) {
+                displayValue = `${criteria.startDate} to ${criteria.endDate}`;
+            } else if (criteria.startDate) {
+                displayValue = `from ${criteria.startDate}`;
+            } else if (criteria.endDate) {
+                displayValue = `until ${criteria.endDate}`;
+            }
+        }
+        
+        const showBoolean = searchCriteria.length > 1 && criteria.boolean !== 'AND';
+        button.innerHTML = `
+            <span class="me-1">${showBoolean ? criteria.boolean + ' ' : ''}${fieldName}: "${displayValue}"</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        `;
+        
+        button.addEventListener('click', () => {
+            if (window.location.hash && !window.location.search) {
+                resetFilter();
+            } else {
+                removeActiveFilter(index);
+            }
+        });
+        
+        container.appendChild(button);
+    });
+    
+    // Add "Add Field" button
+    const addButton = document.createElement('button');
+    addButton.type = 'button';
+    addButton.className = 'btn btn-outline-secondary btn-sm mb-1';
+    addButton.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+        </svg>
+        Add Field
+    `;
+    addButton.addEventListener('click', () => {
+        new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+    });
+    
+    container.appendChild(addButton);
+    activeFiltersDiv.appendChild(container);
+}
+
+/**
+ * Remove a specific active filter by rebuilding URL without it
+ */
+function removeActiveFilter(filterIndex) {
+    if (window.location.hash && !window.location.search) {
+        resetFilter();
+        return;
+    }
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const newParams = new URLSearchParams();
+    let newIndex = 0;
+    
+    // Rebuild parameters excluding the removed filter
+    let index = 0;
+    while (urlParams.has(`f${index}`)) {
+        if (index !== filterIndex) {
+            newParams.set(`b${newIndex}`, urlParams.get(`b${index}`));
+            newParams.set(`f${newIndex}`, urlParams.get(`f${index}`));
+            newParams.set(`v${newIndex}`, urlParams.get(`v${index}`));
+            if (urlParams.has(`start${index}`)) newParams.set(`start${newIndex}`, urlParams.get(`start${index}`));
+            if (urlParams.has(`end${index}`)) newParams.set(`end${newIndex}`, urlParams.get(`end${index}`));
+            newIndex++;
+        }
+        index++;
+    }
+    
+    // Preserve sort
+    if (urlParams.has('sort')) newParams.set('sort', urlParams.get('sort'));
+    
+    // Navigate to new URL or reset if no filters left
+    if (newIndex === 0) {
+        resetFilter();
+    } else {
+        window.location = window.location.pathname + '?' + newParams.toString();
+    }
+}
+
+// =============================================================================
+// SORTING UTILITIES
+// =============================================================================
+
+/**
+ * Fisher-Yates shuffle for random sorting
+ */
+function shuffle(array) {
+    let m = array.length;
+    while (m) {
+        const i = Math.floor(Math.random() * m--);
+        [array[m], array[i]] = [array[i], array[m]];
+    }
+    return array;
+}
+
+/**
+ * Sort items by specified field
+ */
+function sorting(jsonObject, keyToSortBy) {
+    jsonObject.sort((a, b) => {
+        let x = a[keyToSortBy];
+        let y = b[keyToSortBy];
+        if (typeof x === 'string') x = x.toUpperCase();
+        if (typeof y === 'string') y = y.toUpperCase();
+        return (x == null) ? 1 : (y == null) ? -1 : (x < y) ? -1 : (x > y) ? 1 : 0;
+    });
+}
+
+// =============================================================================
+// INITIALIZATION & EVENT HANDLERS
+// =============================================================================
+
+/**
+ * Initialize page on load
+ */
+window.addEventListener('load', function() {
+    // Cache DOM elements
+    loadingIcon = document.querySelector("#loadingIcon");
+    filterTextBox = document.querySelector('#filterTextBox');
+    browseItemsDiv = document.querySelector("#browseItems");
+    
+    // Initialize default sort
+    
+    const defaultSort = "title".toLowerCase();
+    const matchingSort = document.querySelector(`[data-filter="${defaultSort}"]`);
+    if (matchingSort) {
+        sorting(items, defaultSort);
+        matchingSort.classList.add("active");
+        document.getElementById("sortFilter").innerHTML = matchingSort.textContent;
+    } else {
+        shuffle(items);
+    }
+    
+    
+    // Parse URL and initialize search state
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Handle sort parameter
+    if (urlParams.has('sort')) {
+        const sortValue = urlParams.get('sort');
+        document.querySelectorAll('.browse-sort-item').forEach(option => {
+            option.classList.remove('active');
+            if (option.dataset.filter === sortValue) {
+                option.classList.add('active');
+                document.getElementById('sortFilter').innerHTML = option.textContent;
+                sortValue !== 'random' ? sorting(items, sortValue) : shuffle(items);
+            }
+        });
+    }
+    
+    // Handle advanced search parameters
+    if (urlParams.toString()) {
+        const searchRows = document.getElementById('searchRows');
+        if (searchRows) searchRows.innerHTML = '';
+        
+        let index = 0;
+        const searchCriteria = [];
+        
+        // Parse URL parameters into search criteria
+        while (urlParams.has(`f${index}`)) {
+            const criteria = {
+                boolean: urlParams.get(`b${index}`),
+                field: urlParams.get(`f${index}`),
+                value: urlParams.get(`v${index}`)
+            };
+            if (urlParams.has(`start${index}`)) criteria.startDate = urlParams.get(`start${index}`);
+            if (urlParams.has(`end${index}`)) criteria.endDate = urlParams.get(`end${index}`);
+            
+            searchCriteria.push(criteria);
+            if (searchRows) addSearchRow(criteria);
+            index++;
+        }
+        
+        // Add extra empty row and apply filters
+        if (searchRows && searchCriteria.length > 0) addSearchRow();
+        advancedFilterItems(items, searchCriteria);
+    }
+    // Handle hash-based search
+    else if (window.location.hash) {
+        handleHashChange();
+    }
+    // Default: show all items
+    else {
+        const searchRows = document.getElementById('searchRows');
+        if (searchRows) {
+            searchRows.innerHTML = '';
+            for (let i = 0; i < 3; i++) addSearchRow();
+        }
+        filterItems(items, "", "all");
+    }
+    
+    // Set up event handlers
+    setupEventHandlers();
+});
+
+/**
+ * Set up all event handlers
+ */
+function setupEventHandlers() {
+    // Hash change handler
+    window.addEventListener("hashchange", handleHashChange);
+    
+    // Form submission handlers
+    document.getElementById('browseFilter').addEventListener('submit', e => {
+        e.preventDefault();
+        submitFilter();
+        return false;
+    });
+    
+    const advancedSearchForm = document.getElementById('advancedSearchForm');
+    if (advancedSearchForm) {
+        advancedSearchForm.addEventListener('submit', e => {
+            e.preventDefault();
+            submitAdvancedSearch(e);
+            return false;
+        });
+    }
+    
+    
+    // Field selection handlers
+    document.querySelector("#fieldSelect").addEventListener("change", function(e) {
+        const field = e.target.value;
+        
+        if (field === 'advanced') {
+            e.target.value = 'all';
+            new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+            return;
+        }
+        
+        toggleDateInputs(field, document.querySelector('#browseFilter'));
+        document.querySelector("#selectedField").textContent = e.target.options[e.target.selectedIndex].text;
+    });
+    
+    // Mobile dropdown handler
+    document.addEventListener('click', function(e) {
+        if (e.target.matches('.dropdown-item[data-field]')) {
+            const field = e.target.getAttribute('data-field');
+            const fieldSelect = document.getElementById('fieldSelect');
+            const selectedField = document.getElementById('selectedField');
+            
+            if (field === 'advanced') {
+                new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+                return;
+            }
+            
+            if (fieldSelect) {
+                fieldSelect.value = field;
+                fieldSelect.dispatchEvent(new Event('change'));
+            }
+            if (selectedField) selectedField.textContent = e.target.textContent;
+        }
+    });
+    
+    // Sort option handlers
+    document.querySelectorAll(".browse-sort-item").forEach(button => {
+        button.addEventListener("click", event => {
+            const field = button.dataset.filter;
+            const displayName = button.textContent;
+            
+            // Update active sort option
+            document.querySelectorAll(".browse-sort-item").forEach(opt => opt.classList.remove("active"));
+            button.classList.add("active");
+            document.getElementById("sortFilter").innerHTML = displayName;
+            
+            // Apply sort
+            field !== 'random' ? sorting(items, field) : shuffle(items);
+            
+            // Handle current search state
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.toString()) {
+                // Advanced search active - update URL with sort parameter
+                const searchCriteria = [];
+                let index = 0;
+                
+                while (urlParams.has(`f${index}`)) {
+                    const criteria = {
+                        boolean: urlParams.get(`b${index}`),
+                        field: urlParams.get(`f${index}`),
+                        value: urlParams.get(`v${index}`)
+                    };
+                    if (urlParams.has(`start${index}`)) criteria.startDate = urlParams.get(`start${index}`);
+                    if (urlParams.has(`end${index}`)) criteria.endDate = urlParams.get(`end${index}`);
+                    searchCriteria.push(criteria);
+                    index++;
+                }
+                
+                const newParams = new URLSearchParams();
+                searchCriteria.forEach((criteria, i) => {
+                    newParams.set(`b${i}`, criteria.boolean);
+                    newParams.set(`f${i}`, criteria.field);
+                    newParams.set(`v${i}`, criteria.value);
+                    if (criteria.startDate) newParams.set(`start${i}`, criteria.startDate);
+                    if (criteria.endDate) newParams.set(`end${i}`, criteria.endDate);
+                });
+                newParams.set('sort', field);
+                
+                window.history.pushState({}, '', window.location.pathname + '?' + newParams.toString());
+                advancedFilterItems(items, searchCriteria);
+            } else {
+                // Basic search - apply sort and current filter
+                const query = filterTextBox.value;
+                
+                const searchField = document.querySelector("#fieldSelect").value;
+                filterItems(items, query, searchField);
+            }
+        });
+    });
+    
+    // Advanced search modal handler
+    const advancedSearchModal = document.getElementById('advancedSearchModal');
+    if (advancedSearchModal) {
+        advancedSearchModal.addEventListener('show.bs.modal', function() {
+            // Reflect hash-based search in modal
+            if (window.location.hash && !window.location.search) {
+                const hash = decodeURIComponent(location.hash.substr(1));
+                if (!hash) return;
+                
+                let field = 'all';
+                let query = hash;
+                
+                if (hash.includes(":")) {
+                    const [potentialField, hashQuery] = hash.split(":");
+                    if (validFields.includes(potentialField)) {
+                        field = potentialField;
+                        query = hashQuery;
+                    }
+                }
+                
+                updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}]);
+            }
+        });
+    }
+}
+</script>
+
+
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+</script>
+<a href="#maincontent" id="scroll-to-top" class="btn btn-link" title="Back to Top">
+    <span class="visually-hidden">Back to top</span>
+    <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
+        <use href="/assets/css/cb-icons.svg#icon-back-to-top"/>
+    </svg>
+</a>
+  </body>
+</html>

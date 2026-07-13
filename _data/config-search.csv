@@ -1,0 +1,17 @@
+field,index,display
+title,true,true
+date,true,true
+creator,true,false
+description,true,true
+subject,true,true
+display_location,true,true
+artists,true,true
+associated_techniques,true,true
+intaglio_specific,true,true
+relief_specific,true,true
+lithography_specific,true,true
+screenprint_specific,true,true
+other_techniques,true,true
+visual_description,true,true
+biographical_notes,true,true
+

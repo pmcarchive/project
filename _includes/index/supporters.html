@@ -1,0 +1,22 @@
+{% comment %} 
+
+    Supporters card.
+   
+    E.G. --> {% include index/supporters.html %}
+    
+    Options: 
+
+    - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
+    - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
+
+    Grab this code to add image:  <img src="{{ '/assets/img/supporters.png' | relative_url }}" class="card-img-bottom" alt="Our Supporters" style="height: 120 px; object-fit: contain;">
+
+{%- endcomment -%}
+<div class="card mb-3">
+    <div class="card-body">
+        <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Our Supporters</{{ include.heading_level | default: 'h2' | strip }}>
+        <p class="card-text">The Printer’s Marks and Chops Archive is thankful to our supporters who have made this project possible.</p>
+        {%- assign supporters = site.data.config-nav | where: "stub","/supporters.html" | size -%}{% if supporters > 0 %}
+        <a class="btn btn-{{ include.btn-color | default: 'outline-dark' }}" href="{{ '/supporters.html' | relative_url }}">Meet Them Here &raquo;</a>{% endif %}
+    </div>
+</div>

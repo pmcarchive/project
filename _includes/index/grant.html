@@ -1,0 +1,24 @@
+{% comment %} 
+
+    Grant card.
+   
+    E.G. --> {% include index/grant.html %}
+    
+    Options: 
+
+    - "btn-color" - a bootstrap color class to theme the buttons. Can be any bootstrap template color (e.g. info, success) or outline (e.g. outline-info, outline-success), including colors created in config-theme-colors. (optional, default "primary")
+    - "heading_level" = customize the level of the heading if necessary for accessibility, choose "h1", "h2", "h3", etc (optional, default "h2")
+
+    Grab this code to add image:  <img src="{{ '/assets/img/supporters.png' | relative_url }}" class="card-img-bottom" alt="Our Supporters" style="height: 120 px; object-fit: contain;">
+
+{%- endcomment -%}
+<div class="card mb-3"> 
+  <div class="card-body"> 
+    <!-- Removed card-img-top, added a small bottom margin -->
+    <img src="{{ '/assets/img/APSlogo.jpeg' | relative_url }}" alt="Association of Print Scholars logo" style="height: 120px; width: auto; display: block; margin-bottom: 15px;"> 
+    
+    <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Collaboration Grant</{{ include.heading_level | default: 'h2' | strip }}> 
+    <p class="card-text">The Printer’s Marks and Chops Archive is the proud recipient of the 2026 Collaboration Grant from the Association of Print Scholars!</p> 
+    <a class="btn btn-{{ include.btn-color | default: 'outline-dark' }}" href="https://printscholars.org" target="_blank" rel="noopener">Read the Press Release &raquo;</a> 
+  </div> 
+</div>

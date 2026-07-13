@@ -1,0 +1,54 @@
+{
+    "profile": "data-package",
+    "name": "printer-s-marks-and-chops-archive-data",
+    "title": "PRINTER&#39;S MARKS AND CHOPS ARCHIVE Data",
+    "description": "Metadata and data derived from PRINTER&#39;S MARKS AND CHOPS ARCHIVE. The Printer&#39;s Marks and Chops Archive is a catalog of the chop marks and blind stamps used by printers and publishers on fine art prints and other works on paper.",
+    "keywords":  ["printmaker"," print publisher"," blind stamp"," chop mark"," PMC Archive"," print history"," print research"," Printer's Marks and Chops Archive"],
+    "homepage": "http://localhost:4000/",
+    "contributors": [
+        {
+            "title": "PMC Archive",
+            "path": "",
+            "role": "author"
+        }
+    ],
+    "image": "http://localhost:4000/assets/img/ragpaper.jpg",
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "title": "CC0 1.0",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "resources": [
+         
+        {
+            "name": "facets-json",
+            "path": "facets.json",
+            "title": "PRINTER&#39;S MARKS AND CHOPS ARCHIVE Metadata Facets",
+            "description":"Unique values and counts of metadata facet fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        
+        
+        
+        {
+            "name": "metadata-csv",
+            "path": "metadata.csv",
+            "title": "PRINTER&#39;S MARKS AND CHOPS ARCHIVE full metadata in csv",
+            "description": "Complete metadata export for PRINTER&#39;S MARKS AND CHOPS ARCHIVE objects.",
+            "format":"csv",
+            "profile":"data-resource"
+        },
+        {
+            "name": "metadata-json",
+            "path": "metadata.json",
+            "title": "PRINTER&#39;S MARKS AND CHOPS ARCHIVE full metadata in json",
+            "description": "Complete metadata export for PRINTER&#39;S MARKS AND CHOPS ARCHIVE objects.",
+            "format":"json",
+            "profile":"data-resource"
+        }
+    ]
+}

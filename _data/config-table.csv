@@ -1,0 +1,16 @@
+field,display_name
+title,Owner of Mark
+active_years,Years Active
+display_location,Location
+artists,Associated Artists
+publishers,Associated Publishers
+printers,Associated Printers
+institutions,Institutional Collections
+associated_techniques,Techniques
+intaglio_specific,Intaglio Techniques
+lithography_specific,Lithography Techniques
+relief_specific,Relief Techniques
+screenprint_specific,Screenprint Techniques
+other_techniques,Other Techniques
+source,Source
+credit,Credit Line

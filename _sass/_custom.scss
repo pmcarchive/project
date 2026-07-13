@@ -1,0 +1,46 @@
+/* 
+    Put your custom SCSS here! 
+    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
+*/
+/* Indent blockquote feature so it sits inset from body text.
+   Uses logical margin properties for RTL-safe layout and removes
+   the inset on small screens for better readability. Adjust values to taste. */
+@media (min-width: 768px) {
+  /* Push the figure that wraps the include inward from the page edges */
+  figure.narrow-content {
+    margin-inline-start: 2.5rem;
+    margin-inline-end: 2.5rem;
+  }
+
+  /* Give the blockquote a subtle left rule and inner padding */
+  figure.narrow-content blockquote {
+    padding-left: 1rem;
+    border-left: .25rem solid rgba(0,0,0,0.08);
+  }
+
+  /* Align the footer with the indented quote */
+  figure.narrow-content .blockquote-footer {
+    margin-inline-start: .25rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* Remove extra indentation on small screens */
+  figure.narrow-content {
+    margin-inline: 0;
+  }
+  figure.narrow-content blockquote {
+    padding-left: 0;
+    border-left: none;
+  }
+}
+.debossed-text {
+  /* Darken the base text color slightly so the highlights pop */
+  color: #333333; 
+  
+  /* Top shadow (highlight) */
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 
+               
+               /* Bottom shadow (depth) */
+               0 -1px 0 rgba(0, 0, 0, 0.4); 
+}

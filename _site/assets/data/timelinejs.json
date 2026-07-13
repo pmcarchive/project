@@ -1,0 +1,17 @@
+{
+    "title": {
+        "media": {
+          "url": "http://localhost:4000/assets/img/ragpaper.jpg",
+          "alt": "a narrow image showing various blind stamps from different printmakers and publishers",
+          "caption": null,
+          "credit": "PRINTER'S MARKS AND CHOPS ARCHIVE"
+        },
+        "text": {
+          "headline": "PRINTER'S MARKS AND CHOPS ARCHIVE Timeline",
+          "text": "The Printer's Marks and Chops Archive is a catalog of the chop marks and blind stamps used by printers and publishers on fine art prints and other works on paper."
+        }
+    },
+    "events": [
+      
+    ]
+}
