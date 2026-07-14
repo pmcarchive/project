@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://pmcarchive.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /project
 # location of code, the full url to your github repository
-source-code: https://github.com/tmengelb/cb-pmcarchive
+source-code: https://github.com/pmcarchive/project
 
 ##########
 # SITE SETTINGS
@@ -27,7 +27,7 @@ description: "The Printer's Marks and Chops Archive is a catalog of the chop mar
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: printmaker; print publisher; blind stamp; chop mark; PMC Archive; print history; print research; Printer's Marks and Chops Archive
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: tmengelb
+author: pmcarchive
 
 ##########
 # COLLECTION SETTINGS
