@@ -8,7 +8,7 @@ gem 'webrick'
 gem 'logger'
 gem 'base64'
 gem 'ostruct'
-gem 'sass-embedded', '1.93.2'
+#gem 'sass-embedded', '1.93.2'
 
 # needed for Rake tasks
 gem 'rake'
