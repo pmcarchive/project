@@ -42,7 +42,7 @@ We do *not* identify collector's marks. For identification of those, we recommen
 
 **Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies
 
-**Theresa Engelbrecht** <br> Registrar & Exhibition Manager <br> Samek Art Museum, Bucknell University
+**Theresa Engelbrecht** <br> Collection & Exhibition Manager <br> Samek Art Museum, Bucknell University
 
 ### Research Assistants
 
