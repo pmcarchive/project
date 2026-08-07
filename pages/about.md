@@ -48,4 +48,4 @@ We do *not* identify collector's marks. For identification of those, we recommen
 
 **Abigail Shim** <br> Syracuse University <br> assisted Fall 2025
 
-**Romina Olvera** <br> Syracuse University <br> assisted Fall 2025 and Spring 2026
+**Romina Mendoza Olvera** <br> Syracuse University <br> assisted Fall 2025 and Spring 2026
