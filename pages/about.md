@@ -49,3 +49,5 @@ We do *not* identify collector's marks. For identification of those, we recommen
 **Abigail Shim** <br> Syracuse University <br> assisted Fall 2025
 
 **Romina Mendoza Olvera** <br> Syracuse University <br> assisted Fall 2025 and Spring 2026
+
+**Hannah Capucilli-Shatan** <br> Syracuse University <br> current graduate assistant, Museum Studies G'27
