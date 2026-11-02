@@ -40,14 +40,17 @@ We do *not* identify collector's marks. For identification of those, we recommen
 
 ### Project Leads
 
-**Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies
+**Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies <br> <a href="mailto:andrew@printersmarks.org">andrew@printersmarks.org</a>
 
-**Theresa Engelbrecht** <br> Collection & Exhibition Manager <br> Samek Art Museum, Bucknell University
+**Theresa Engelbrecht** <br> Collection & Exhibition Manager <br> Samek Art Museum, Bucknell University <br> <a href="mailto:theresa@printersmarks.org">theresa@printersmarks.org</a>
+
 
 ### Research Assistants
 
-**Abigail Shim** <br> Syracuse University <br> assisted Fall 2025
+**Abigail Shim** <br> Syracuse University '27 <br> Fall 2025, Fall 2026
 
-**Romina Mendoza Olvera** <br> Syracuse University <br> assisted Fall 2025 and Spring 2026
+**Romina Mendoza Olvera** <br> Syracuse University '27 <br> Fall 2025, Spring 2026, Fall 2026
 
-**Hannah Capucilli-Shatan** <br> Syracuse University <br> current graduate assistant, Museum Studies G'27
+**Hannah Capucilli-Shatan** <br> Syracuse University G'27 <br> Fall 2026
+
+**Abigail Wrightsmith** <br> Bucknell University '27 <br> Fall 2026
