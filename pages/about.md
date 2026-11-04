@@ -38,6 +38,10 @@ This project aims to catalog chop marks and similar identifying marks from print
 
 We do *not* identify collector's marks. For identification of those, we recommend the [Lugt database](https://www.fondationcustodia.fr/Collectors-Marks-273). We also do not identify watermarks or other marks left by paper manufacturers, but encourage you to visit the [Memory of Paper](https://www.memoryofpaper.eu/BernsteinPortal/appl_start.disp). We also exclude chop marks on coins and ceramics, or seal marks on non-print works of art. 
 
+## Contact Us 
+
+Do you have questions or feedback about the project? Let us know! <a href="mailto:info@printersmarks.org">info@printersmarks.org</a>
+
 ### Project Leads
 
 **Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies <br> <a href="mailto:andrew@printersmarks.org">andrew@printersmarks.org</a>
@@ -47,10 +51,10 @@ We do *not* identify collector's marks. For identification of those, we recommen
 
 ### Research Assistants
 
-**Abigail Shim** <br> Syracuse University '27 <br> Fall 2025, Fall 2026
+**Abigail Shim**, Syracuse University '27 
 
-**Romina Mendoza Olvera** <br> Syracuse University '27 <br> Fall 2025, Spring 2026, Fall 2026
+**Romina Mendoza Olvera**, Syracuse University '27 
 
-**Hannah Capucilli-Shatan** <br> Syracuse University G'27 <br> Fall 2026
+**Hannah Capucilli-Shatan**, Syracuse University G'27 
 
-**Abigail Wrightsmith** <br> Bucknell University '27 <br> Fall 2026
+**Abigail Wrightsmith**, Bucknell University '27 
