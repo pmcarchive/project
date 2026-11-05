@@ -29,7 +29,13 @@ padding: 2.5em
 
 {% include feature/image.html objectid="https://printscholars.org/wp-content/uploads/2014/10/APS_logo_web.png" link="https://printscholars.org/" width=50 %}
 
-The APS Collaboration Grant provided funding for site development and deployment using Collection Builder. 
+The APS Collaboration Grant provided funding for site development and deployment using CollectionBuilder. 
+
+<br>
+
+{% include feature/image.html objectid="/assets/img/syr_logo.jpeg" link="https://undergraduateresearch.syracuse.edu/" width=50 %}
+
+Funding support for Syracuse University research assistants was provided by the Syracuse Office of Undergraduate Research & Creative Engagement (The SOURCE). 
 
 <br>
 
@@ -50,9 +56,9 @@ Scans of several sources used to launch this resource were provided by Annex Gal
   <div class="col-md-6">
     {% capture right %}
 
-{% include feature/image.html objectid="/assets/img/syr_logo.jpeg" link="https://undergraduateresearch.syracuse.edu/" width=50 %}
+{% include feature/image.html objectid="/assets/img/cb-logo-lg.png" link="https://collectionbuilder.github.io/" width=25 %}
 
-Funding support for Syracuse University research assistants was provided by the Syracuse Office of Undergraduate Research & Creative Engagement (The SOURCE). 
+This site is built with CollectionBuilder, an open source framework for creating digital collection and exhibit websites that is developed by faculty librarians at the University of Idaho Library following the Lib-Static methodology.
 
 <br>
 {% include feature/image.html objectid="/assets/img/des-moines-logo.png" link="https://desmoinesartcenter.org/" width=25 %}
@@ -61,7 +67,7 @@ Des Moines Art Center's Registrar, Sydney Royal Welch, shared images and identif
 <br>
 
 {% include feature/image.html objectid="/assets/img/SamekLogo_Transparent Large.jpeg" link="https://museum.bucknell.edu" width=50 %}
-Many of the marks and chops were found in the Samek Art Museum collection and were researched using resources available at Bucknell University. 
+Many of the marks and chops were found in the Samek Art Museum collection and were researched using resources available through Bucknell University. 
 
    {% endcapture %}
     {{ right | markdownify }}
