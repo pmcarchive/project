@@ -44,17 +44,17 @@ Do you have questions or feedback about the project? Let us know! <a href="mailt
 
 ### Project Leads
 
-**Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies <br> <a href="mailto:andrew@printersmarks.org">andrew@printersmarks.org</a>
-
 **Theresa Engelbrecht** <br> Collection & Exhibition Manager <br> Samek Art Museum, Bucknell University <br> <a href="mailto:theresa@printersmarks.org">theresa@printersmarks.org</a>
+
+**Andrew Saluti** <br> Associate Professor, Program Coordinator <br> Syracuse University Museum Studies <br> <a href="mailto:andrew@printersmarks.org">andrew@printersmarks.org</a>
 
 
 ### Research Assistants
 
-**Abigail Shim**, Syracuse University '27 
+**Hannah Capucilli-Shatan**, Syracuse University G'27 
 
 **Romina Mendoza Olvera**, Syracuse University '27 
 
-**Hannah Capucilli-Shatan**, Syracuse University G'27 
+**Abigail Shim**, Syracuse University '27 
 
 **Abigail Wrightsmith**, Bucknell University '27 
